@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name rdimm-breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/rdimm-breakout-rescue.lib)(options "")(descr ""))
+  (lib (name rdimm-breakout)(type Legacy)(uri ${KIPRJMOD}/lib/rdimm-breakout.lib)(options "")(descr ""))
+)

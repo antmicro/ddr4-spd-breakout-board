@@ -1,0 +1,1968 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 4
+Title "RDIMM-breakout"
+Date "2021-09"
+Rev "1.0.0"
+Comp "Antmicro Ltd."
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L rdimm-breakout:TPS54561-rdimm-breakout IC1
+U 1 1 602D964D
+P 3250 6350
+F 0 "IC1" H 2925 6900 60  0000 C CNN
+F 1 "TPS54561" H 3075 5700 60  0000 C CNN
+F 2 "rdimm-breakout-footprints:WSON-10_4x4" H 3250 6350 60  0001 C CNN
+F 3 "" H 3250 6350 60  0001 C CNN
+F 4 "Texas Instrumets" H 3250 6350 50  0001 C CNN "Manufacturer"
+F 5 "TPS54561-Q1" H 3250 6350 50  0001 C CNN "MPN"
+	1    3250 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6750 3900 6750
+Wire Wire Line
+	3900 6750 3900 6850
+Wire Wire Line
+	3850 6850 3900 6850
+Connection ~ 3900 6850
+Wire Wire Line
+	3900 6850 3900 7400
+Wire Wire Line
+	3850 5950 4075 5950
+Text GLabel 4075 5775 1    50   Input ~ 0
+SYS_ON
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0183
+U 1 1 602ED98B
+P 4300 6550
+F 0 "#PWR0183" H 4300 6300 50  0001 C CNN
+F 1 "GND" H 4305 6377 50  0000 C CNN
+F 2 "" H 4300 6550 50  0001 C CNN
+F 3 "" H 4300 6550 50  0001 C CNN
+	1    4300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:WE_7447798720-rdimm-breakout L6
+U 1 1 602EF283
+P 4650 6350
+F 0 "L6" H 4525 6525 60  0000 C CNN
+F 1 "WE_7447798720" H 5200 6425 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:WE_7447798720" H 4700 6200 60  0001 C CNN
+F 3 "" H 4705 6380 60  0001 C CNN
+F 4 "Wurth Elektronik" H 4650 6250 50  0001 C CNN "Manufacturer"
+F 5 "7447798720" H 4700 6425 50  0000 C CNN "MPN"
+	1    4650 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6350 4300 6350
+Wire Wire Line
+	4300 6150 4300 6350
+Connection ~ 4300 6350
+Wire Wire Line
+	4300 6350 4500 6350
+$Comp
+L rdimm-breakout:PDS760-13-rdimm-breakout D2
+U 1 1 6030A796
+P 4300 6450
+F 0 "D2" H 4380 6450 60  0000 L CNN
+F 1 "PDS760-13" H 4400 6350 60  0001 L BNN
+F 2 "rdimm-breakout-footprints:PDS760-13" H 4300 6450 60  0001 C CNN
+F 3 "" H 4300 6450 60  0001 C CNN
+F 4 "Diodes Inc." H 4300 6450 50  0001 C CNN "Manufacturer"
+F 5 "PDS760-13" H 4600 6350 50  0000 C CNN "MPN"
+	1    4300 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6550 4100 6550
+$Comp
+L rdimm-breakout:R_49R9_0402-rdimm-breakout R126
+U 1 1 603151DE
+P 5000 6550
+F 0 "R126" V 4955 6620 60  0000 L CNN
+F 1 "R_49R9_0402" H 5000 6400 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 5200 6750 60  0001 L CNN
+F 3 "" H 5000 6550 50  0001 C CNN
+F 4 "VISHAY" H 5200 6950 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040249R9FKED" H 5200 6850 60  0001 L CNN "MPN"
+F 6 "49R9" V 5053 6620 50  0000 L CNN "Val"
+	1    5000 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L rdimm-breakout:R_53k6_0402-rdimm-breakout R127
+U 1 1 6031590C
+P 5000 6850
+F 0 "R127" V 4955 6920 60  0000 L CNN
+F 1 "R_53k6_0402" H 5000 6700 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 5200 7050 60  0001 L CNN
+F 3 "" H 5000 6850 50  0001 C CNN
+F 4 "TE_CONNECTIVITY" H 5200 7250 60  0001 L CNN "Manufacturer"
+F 5 "CPF0402B53K6E1_" H 5200 7150 60  0001 L CNN "MPN"
+F 6 "53k6" V 5053 6920 50  0000 L CNN "Val"
+	1    5000 6850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 6350 5000 6350
+Wire Wire Line
+	5000 6400 5000 6350
+Connection ~ 5000 6350
+Wire Wire Line
+	5000 7000 5000 7050
+Wire Wire Line
+	5000 7050 4100 7050
+Connection ~ 5000 7050
+Wire Wire Line
+	5000 7050 5000 7100
+Wire Wire Line
+	4100 6550 4100 7050
+$Comp
+L rdimm-breakout:C_47u_0603-rdimm-breakout C180
+U 1 1 603492A6
+P 5450 6550
+F 0 "C180" H 5450 6650 60  0000 L CNN
+F 1 "C_47u_0603" H 5450 6400 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 5650 6750 60  0001 L CNN
+F 3 "" H 5450 6550 50  0001 C CNN
+F 4 "MURATA" H 5650 6950 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 5650 6850 60  0001 L CNN "MPN"
+F 6 "47u" H 5450 6450 50  0000 L CNN "Val"
+	1    5450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_47u_0603-rdimm-breakout C182
+U 1 1 60349A43
+P 5700 6550
+F 0 "C182" H 5700 6650 60  0000 L CNN
+F 1 "C_47u_0603" H 5700 6400 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 5900 6750 60  0001 L CNN
+F 3 "" H 5700 6550 50  0001 C CNN
+F 4 "MURATA" H 5900 6950 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 5900 6850 60  0001 L CNN "MPN"
+F 6 "47u" H 5700 6450 50  0000 L CNN "Val"
+	1    5700 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_47u_0603-rdimm-breakout C183
+U 1 1 60349D0A
+P 5950 6550
+F 0 "C183" H 5950 6650 60  0000 L CNN
+F 1 "C_47u_0603" H 5950 6400 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 6150 6750 60  0001 L CNN
+F 3 "" H 5950 6550 50  0001 C CNN
+F 4 "MURATA" H 6150 6950 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 6150 6850 60  0001 L CNN "MPN"
+F 6 "47u" H 5950 6450 50  0000 L CNN "Val"
+	1    5950 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6350 5450 6350
+Wire Wire Line
+	5950 6350 5950 6400
+Wire Wire Line
+	5700 6400 5700 6350
+Connection ~ 5700 6350
+Wire Wire Line
+	5700 6350 5950 6350
+Wire Wire Line
+	5450 6400 5450 6350
+Connection ~ 5450 6350
+Wire Wire Line
+	5450 6350 5700 6350
+Wire Wire Line
+	5450 6700 5450 6800
+Wire Wire Line
+	5450 6800 5700 6800
+Wire Wire Line
+	5950 6800 5950 6700
+Wire Wire Line
+	5700 6700 5700 6800
+Connection ~ 5700 6800
+Wire Wire Line
+	5700 6800 5950 6800
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0184
+U 1 1 60367DB3
+P 5700 7000
+F 0 "#PWR0184" H 5700 6750 50  0001 C CNN
+F 1 "GND" H 5705 6827 50  0000 C CNN
+F 2 "" H 5700 7000 50  0001 C CNN
+F 3 "" H 5700 7000 50  0001 C CNN
+	1    5700 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 6800 5700 7000
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0185
+U 1 1 60370C6A
+P 5000 7400
+F 0 "#PWR0185" H 5000 7150 50  0001 C CNN
+F 1 "GND" H 5005 7227 50  0000 C CNN
+F 2 "" H 5000 7400 50  0001 C CNN
+F 3 "" H 5000 7400 50  0001 C CNN
+	1    5000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:R_100k_0402-rdimm-breakout R122
+U 1 1 6039308E
+P 4500 5800
+F 0 "R122" V 4455 5870 60  0000 L CNN
+F 1 "R_100k_0402" H 4500 5650 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 4700 6000 60  0001 L CNN
+F 3 "" H 4500 5800 50  0001 C CNN
+F 4 "VISHAY" H 4700 6200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 4700 6100 60  0001 L CNN "MPN"
+F 6 "100k" V 4553 5870 50  0000 L CNN "Val"
+	1    4500 5800
+	0    1    1    0   
+$EndComp
+Text GLabel 4500 5650 1    50   Input ~ 0
+VCC5V0
+$Comp
+L rdimm-breakout:C_47p_0402-rdimm-breakout C175
+U 1 1 6039FE7B
+P 2500 7300
+F 0 "C175" H 2525 7400 60  0000 L CNN
+F 1 "C_47p_0402" H 2500 7150 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 2700 7500 60  0001 L CNN
+F 3 "" H 2500 7300 50  0001 C CNN
+F 4 "KEMET" H 2700 7700 60  0001 L CNN "Manufacturer"
+F 5 "C0402C470J5GACTU" H 2700 7600 60  0001 L CNN "MPN"
+F 6 "47p" H 2525 7200 50  0000 L CNN "Val"
+	1    2500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_4n7_0402-rdimm-breakout C172
+U 1 1 603A0E92
+P 2200 7300
+F 0 "C172" H 2225 7400 60  0000 L CNN
+F 1 "C_4n7_0402" H 2200 7150 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 2400 7500 60  0001 L CNN
+F 3 "" H 2200 7300 50  0001 C CNN
+F 4 "TDK" H 2400 7700 60  0001 L CNN "Manufacturer"
+F 5 "CGA2B3X7S2A472K050BB" H 2400 7600 60  0001 L CNN "MPN"
+F 6 "4n7" H 2200 7200 50  0000 L CNN "Val"
+	1    2200 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:R_16k9_0402-rdimm-breakout R115
+U 1 1 603A1C9F
+P 2200 7000
+F 0 "R115" V 2155 7070 60  0000 L CNN
+F 1 "R_16k9_0402" H 2200 6850 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 2400 7200 60  0001 L CNN
+F 3 "" H 2200 7000 50  0001 C CNN
+F 4 "PANASONIC" H 2400 7400 60  0001 L CNN "Manufacturer"
+F 5 "ERA2AEB1692X" H 2400 7300 60  0001 L CNN "MPN"
+F 6 "16k9" V 2253 7070 50  0000 L CNN "Val"
+	1    2200 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 6850 2200 6750
+Wire Wire Line
+	2200 6750 2500 6750
+Wire Wire Line
+	2500 7150 2500 6750
+Connection ~ 2500 6750
+Wire Wire Line
+	2500 6750 2650 6750
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0186
+U 1 1 602E456B
+P 3900 7400
+F 0 "#PWR0186" H 3900 7150 50  0001 C CNN
+F 1 "GND" H 3905 7227 50  0000 C CNN
+F 2 "" H 3900 7400 50  0001 C CNN
+F 3 "" H 3900 7400 50  0001 C CNN
+	1    3900 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0187
+U 1 1 603D117A
+P 2200 7450
+F 0 "#PWR0187" H 2200 7200 50  0001 C CNN
+F 1 "GND" H 2205 7277 50  0000 C CNN
+F 2 "" H 2200 7450 50  0001 C CNN
+F 3 "" H 2200 7450 50  0001 C CNN
+	1    2200 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0188
+U 1 1 603D16EC
+P 2500 7450
+F 0 "#PWR0188" H 2500 7200 50  0001 C CNN
+F 1 "GND" H 2505 7277 50  0000 C CNN
+F 2 "" H 2500 7450 50  0001 C CNN
+F 3 "" H 2500 7450 50  0001 C CNN
+	1    2500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0189
+U 1 1 603D4A1C
+P 1000 5450
+F 0 "#PWR0189" H 1000 5200 50  0001 C CNN
+F 1 "GND" H 1005 5277 50  0000 C CNN
+F 2 "" H 1000 5450 50  0001 C CNN
+F 3 "" H 1000 5450 50  0001 C CNN
+	1    1000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0190
+U 1 1 603D4F8F
+P 1575 5450
+F 0 "#PWR0190" H 1575 5200 50  0001 C CNN
+F 1 "GND" H 1580 5277 50  0000 C CNN
+F 2 "" H 1575 5450 50  0001 C CNN
+F 3 "" H 1575 5450 50  0001 C CNN
+	1    1575 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0191
+U 1 1 603D54DC
+P 2150 5450
+F 0 "#PWR0191" H 2150 5200 50  0001 C CNN
+F 1 "GND" H 2155 5277 50  0000 C CNN
+F 2 "" H 2150 5450 50  0001 C CNN
+F 3 "" H 2150 5450 50  0001 C CNN
+	1    2150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10n_0402-rdimm-breakout C174
+U 1 1 603E471F
+P 2500 6550
+F 0 "C174" V 2450 6375 60  0000 C CNN
+F 1 "C_10n_0402" H 2500 6400 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 2700 6750 60  0001 L CNN
+F 3 "" H 2500 6550 50  0001 C CNN
+F 4 "AVX" H 2700 6950 60  0001 L CNN "Manufacturer"
+F 5 "04025G103ZAT2A" H 2700 6850 60  0001 L CNN "MPN"
+F 6 "10n" V 2550 6675 50  0000 C CNN "Val"
+	1    2500 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L rdimm-breakout:R_243k_0402-rdimm-breakout R116
+U 1 1 603E579D
+P 2500 6350
+F 0 "R116" H 2450 6450 60  0000 C CNN
+F 1 "R_243k_0402" H 2500 6200 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 2700 6550 60  0001 L CNN
+F 3 "" H 2500 6350 50  0001 C CNN
+F 4 "MULTICOMP" H 2700 6750 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X2433FTL" H 2700 6650 60  0001 L CNN "MPN"
+F 6 "243k" H 2700 6300 50  0000 C CNN "Val"
+	1    2500 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0192
+U 1 1 603E5D69
+P 2200 6550
+F 0 "#PWR0192" H 2200 6300 50  0001 C CNN
+F 1 "GND" H 2200 6400 50  0000 C CNN
+F 2 "" H 2200 6550 50  0001 C CNN
+F 3 "" H 2200 6550 50  0001 C CNN
+	1    2200 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 6350 2200 6350
+Wire Wire Line
+	2200 6350 2200 6550
+Wire Wire Line
+	2350 6550 2200 6550
+Connection ~ 2200 6550
+Wire Wire Line
+	2650 5950 2500 5950
+Wire Wire Line
+	2500 5950 2500 5700
+Text GLabel 1000 5150 1    50   Input ~ 0
+VIN
+Text GLabel 1575 5150 1    50   Input ~ 0
+VIN
+Text GLabel 2150 5150 1    50   Input ~ 0
+VIN
+$Comp
+L rdimm-breakout:DC_SOCKET-rdimm-breakout J3
+U 1 1 607A5F4D
+P 7825 5800
+F 0 "J3" H 7525 6000 60  0000 C CNN
+F 1 "DC_SOCKET" H 7875 5525 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:DC_SOCKET" H 7875 5450 60  0001 C CNN
+F 3 "" H 7825 5800 60  0001 C CNN
+F 4 "Multicomp" H 7850 5325 50  0001 C CNN "Manufacturer"
+F 5 "MJ-179PH" H 7675 5600 50  0000 C CNN "MPN"
+	1    7825 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8225 5350 1    50   Input ~ 0
+VIN
+Wire Wire Line
+	8025 5700 8225 5700
+Wire Wire Line
+	8225 5700 8225 5650
+Wire Wire Line
+	8025 5800 8225 5800
+Wire Wire Line
+	8225 5800 8225 5900
+Wire Wire Line
+	8025 5900 8225 5900
+Connection ~ 8225 5900
+Wire Wire Line
+	8225 5900 8225 6050
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0208
+U 1 1 607DAC0B
+P 8225 6050
+F 0 "#PWR0208" H 8225 5800 50  0001 C CNN
+F 1 "GND" H 8230 5877 50  0000 C CNN
+F 2 "" H 8225 6050 50  0001 C CNN
+F 3 "" H 8225 6050 50  0001 C CNN
+	1    8225 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:KP-1608CGCK-rdimm-breakout PWR1
+U 1 1 607F0796
+P 8075 7225
+F 0 "PWR1" V 7972 7403 60  0000 L CNN
+F 1 "KP-1608CGCK" V 8078 7403 60  0000 L CNN
+F 2 "rdimm-breakout-footprints:LED_0603" H 8275 7425 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 8275 7525 60  0001 L CNN
+F 4 "KP-1608CGCK" H 8275 7725 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 8285 7845 60  0001 L CNN "Manufacturer"
+	1    8075 7225
+	1    0    0    -1  
+$EndComp
+Text GLabel 7875 7225 0    50   Input ~ 0
+3V3_SYS
+$Comp
+L rdimm-breakout:R_330R_0402-rdimm-breakout R119
+U 1 1 60801709
+P 8325 7225
+F 0 "R119" H 8200 7325 60  0000 L CNN
+F 1 "R_330R_0402" H 8325 7075 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 8525 7425 60  0001 L CNN
+F 3 "" H 8325 7225 50  0001 C CNN
+F 4 "MULTICOMP" H 8525 7625 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 8525 7525 60  0001 L CNN "MPN"
+F 6 "330R" H 8225 7125 50  0000 L CNN "Val"
+	1    8325 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0209
+U 1 1 6080350C
+P 8475 7225
+F 0 "#PWR0209" H 8475 6975 50  0001 C CNN
+F 1 "GND" H 8480 7052 50  0000 C CNN
+F 2 "" H 8475 7225 50  0001 C CNN
+F 3 "" H 8475 7225 50  0001 C CNN
+	1    8475 7225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rdimm-breakout:R_10k2_0402-rdimm-breakout R128
+U 1 1 61AA3234
+P 5000 7250
+F 0 "R128" V 4955 7320 60  0000 L CNN
+F 1 "R_10k2_0402" H 5000 7100 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 5200 7450 60  0001 L CNN
+F 3 "" H 5000 7250 50  0001 C CNN
+F 4 "MULTICOMP PRO" H 5200 7650 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04X1022FTL" H 5200 7550 60  0001 L CNN "MPN"
+F 6 "10k2" V 5053 7320 50  0000 L CNN "Val"
+	1    5000 7250
+	0    1    1    0   
+$EndComp
+Text Notes 3250 950  0    79   ~ 16
+DDR4 PMIC
+Text Notes 2700 4700 0    79   ~ 16
+Main supply (5V 5A)
+Wire Wire Line
+	4075 5775 4075 5950
+Connection ~ 4075 5950
+Wire Wire Line
+	4075 5950 4500 5950
+$Comp
+L rdimm-breakout:C_100n_0402_6V3-rdimm-breakout C178
+U 1 1 602ECA11
+P 4100 6150
+F 0 "C178" V 4025 5875 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 4100 6000 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 4300 6350 60  0001 L CNN
+F 3 "" H 4100 6150 50  0001 C CNN
+F 4 "Walsin" H 4300 6550 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4300 6450 60  0001 L CNN "MPN"
+F 6 "100n" V 4150 6200 50  0000 L CNN "Val"
+	1    4100 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 6150 3950 6150
+Wire Wire Line
+	4250 6150 4300 6150
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP9
+U 1 1 6C3554ED
+P 2125 6150
+F 0 "TP9" V 2125 6025 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2125 6050 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 2325 6350 60  0001 L CNN
+F 3 "" H 2325 6450 60  0001 L CNN
+	1    2125 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0133
+U 1 1 5FC23070
+P 7075 1800
+F 0 "#PWR0133" H 7075 1550 50  0001 C CNN
+F 1 "GND" H 7080 1627 50  0000 C CNN
+F 2 "" H 7075 1800 50  0001 C CNN
+F 3 "" H 7075 1800 50  0001 C CNN
+	1    7075 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0134
+U 1 1 5FC23E64
+P 7300 1800
+F 0 "#PWR0134" H 7300 1550 50  0001 C CNN
+F 1 "GND" H 7305 1627 50  0000 C CNN
+F 2 "" H 7300 1800 50  0001 C CNN
+F 3 "" H 7300 1800 50  0001 C CNN
+	1    7300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0135
+U 1 1 5FC33189
+P 7550 1800
+F 0 "#PWR0135" H 7550 1550 50  0001 C CNN
+F 1 "GND" H 7555 1627 50  0000 C CNN
+F 2 "" H 7550 1800 50  0001 C CNN
+F 3 "" H 7550 1800 50  0001 C CNN
+	1    7550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0136
+U 1 1 5FCF2715
+P 7900 1800
+F 0 "#PWR0136" H 7900 1550 50  0001 C CNN
+F 1 "GND" H 7905 1627 50  0000 C CNN
+F 2 "" H 7900 1800 50  0001 C CNN
+F 3 "" H 7900 1800 50  0001 C CNN
+	1    7900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0149
+U 1 1 5FD445DB
+P 6675 1800
+F 0 "#PWR0149" H 6675 1550 50  0001 C CNN
+F 1 "GND" H 6680 1627 50  0000 C CNN
+F 2 "" H 6675 1800 50  0001 C CNN
+F 3 "" H 6675 1800 50  0001 C CNN
+	1    6675 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:R_100k_0402-rdimm-breakout R40
+U 1 1 5FD504C3
+P 2200 2250
+F 0 "R40" V 2350 2250 60  0000 R CNN
+F 1 "R_100k_0402" H 2200 2100 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 2400 2450 60  0001 L CNN
+F 3 "" H 2200 2250 50  0001 C CNN
+F 4 "VISHAY" H 2400 2650 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 2400 2550 60  0001 L CNN "MPN"
+F 6 "100k" H 2300 2250 50  0000 R CNN "Val"
+	1    2200 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 2400 2200 2475
+Wire Wire Line
+	2200 2475 3100 2475
+Wire Wire Line
+	2200 2100 2200 1875
+Wire Wire Line
+	2200 1875 2875 1875
+Wire Wire Line
+	2525 2775 3100 2775
+Wire Wire Line
+	4200 2025 4925 2025
+Wire Wire Line
+	4925 2025 4925 1875
+$Comp
+L rdimm-breakout:C_100n_0402_6V3-rdimm-breakout C35
+U 1 1 5FE76020
+P 4775 2175
+F 0 "C35" V 4675 2050 60  0000 C CNN
+F 1 "C_100n_0402_6V3" H 4775 2025 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 4975 2375 60  0001 L CNN
+F 3 "" H 4775 2175 50  0001 C CNN
+F 4 "Walsin" H 4975 2575 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4975 2475 60  0001 L CNN "MPN"
+F 6 "100n" V 4750 2325 50  0000 C CNN "Val"
+	1    4775 2175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 2175 4325 2175
+Wire Wire Line
+	4200 2325 4925 2325
+Wire Wire Line
+	4925 2325 4925 2175
+Text GLabel 6125 2325 2    50   Input ~ 0
+VDD1V2
+$Comp
+L rdimm-breakout:C_22u_0603-rdimm-breakout C39
+U 1 1 5FECB0DA
+P 10275 1675
+F 0 "C39" H 10300 1775 60  0000 L CNN
+F 1 "C_22u_0603" H 10275 1525 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 10475 1875 60  0001 L CNN
+F 3 "" H 10275 1675 50  0001 C CNN
+F 4 "MURATA" H 10475 2075 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 10475 1975 60  0001 L CNN "MPN"
+F 6 "22u" H 10300 1575 50  0000 L CNN "Val"
+	1    10275 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0151
+U 1 1 5FECB0E0
+P 10275 1825
+F 0 "#PWR0151" H 10275 1575 50  0001 C CNN
+F 1 "GND" H 10280 1652 50  0000 C CNN
+F 2 "" H 10275 1825 50  0001 C CNN
+F 3 "" H 10275 1825 50  0001 C CNN
+	1    10275 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_22u_0603-rdimm-breakout C40
+U 1 1 5FED6DC8
+P 10600 1675
+F 0 "C40" H 10625 1775 60  0000 L CNN
+F 1 "C_22u_0603" H 10600 1525 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 10800 1875 60  0001 L CNN
+F 3 "" H 10600 1675 50  0001 C CNN
+F 4 "MURATA" H 10800 2075 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 10800 1975 60  0001 L CNN "MPN"
+F 6 "22u" H 10625 1575 50  0000 L CNN "Val"
+	1    10600 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0152
+U 1 1 5FED6DCE
+P 10600 1825
+F 0 "#PWR0152" H 10600 1575 50  0001 C CNN
+F 1 "GND" H 10605 1652 50  0000 C CNN
+F 2 "" H 10600 1825 50  0001 C CNN
+F 3 "" H 10600 1825 50  0001 C CNN
+	1    10600 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_22u_0603-rdimm-breakout C41
+U 1 1 5FEE2019
+P 10925 1675
+F 0 "C41" H 10950 1775 60  0000 L CNN
+F 1 "C_22u_0603" H 10925 1525 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 11125 1875 60  0001 L CNN
+F 3 "" H 10925 1675 50  0001 C CNN
+F 4 "MURATA" H 11125 2075 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 11125 1975 60  0001 L CNN "MPN"
+F 6 "22u" H 10950 1575 50  0000 L CNN "Val"
+	1    10925 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0153
+U 1 1 5FEE201F
+P 10925 1825
+F 0 "#PWR0153" H 10925 1575 50  0001 C CNN
+F 1 "GND" H 10930 1652 50  0000 C CNN
+F 2 "" H 10925 1825 50  0001 C CNN
+F 3 "" H 10925 1825 50  0001 C CNN
+	1    10925 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_22u_0603-rdimm-breakout C42
+U 1 1 5FEEDD12
+P 11250 1675
+F 0 "C42" H 11275 1775 60  0000 L CNN
+F 1 "C_22u_0603" H 11250 1525 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 11450 1875 60  0001 L CNN
+F 3 "" H 11250 1675 50  0001 C CNN
+F 4 "MURATA" H 11450 2075 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 11450 1975 60  0001 L CNN "MPN"
+F 6 "22u" H 11275 1575 50  0000 L CNN "Val"
+	1    11250 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0154
+U 1 1 5FEEDD18
+P 11250 1825
+F 0 "#PWR0154" H 11250 1575 50  0001 C CNN
+F 1 "GND" H 11255 1652 50  0000 C CNN
+F 2 "" H 11250 1825 50  0001 C CNN
+F 3 "" H 11250 1825 50  0001 C CNN
+	1    11250 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2475 5325 2475
+Wire Wire Line
+	5325 2475 5325 2325
+Wire Wire Line
+	4200 2625 4775 2625
+$Comp
+L rdimm-breakout:R_0R_0402-rdimm-breakout R42
+U 1 1 5FF5209D
+P 4500 2775
+F 0 "R42" H 4450 2875 60  0000 C CNN
+F 1 "R_0R_0402" H 4500 2625 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 4700 2975 60  0001 L CNN
+F 3 "" H 4500 2775 50  0001 C CNN
+F 4 "PANASONIC" H 4700 3175 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4700 3075 60  0001 L CNN "MPN"
+F 6 "0R" H 4675 2725 50  0000 C CNN "Val"
+	1    4500 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2775 4350 2775
+Wire Wire Line
+	4650 2775 4775 2775
+Wire Wire Line
+	4775 2775 4775 2625
+Text GLabel 6125 2625 2    50   Input ~ 0
+VCC0V6
+$Comp
+L rdimm-breakout:C_470n_0402-rdimm-breakout C36
+U 1 1 5FF7C396
+P 4775 3075
+F 0 "C36" H 4800 3175 60  0000 L CNN
+F 1 "C_470n_0402" H 4775 2925 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 4975 3275 60  0001 L CNN
+F 3 "" H 4775 3075 50  0001 C CNN
+F 4 "TDK" H 4975 3475 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 4975 3375 60  0001 L CNN "MPN"
+F 6 "470n" H 4800 2975 50  0000 L CNN "Val"
+	1    4775 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2925 4775 2925
+Wire Wire Line
+	4200 3275 4275 3275
+Wire Wire Line
+	4275 3275 4275 3425
+Wire Wire Line
+	4200 3425 4275 3425
+Connection ~ 4275 3425
+Wire Wire Line
+	4275 3425 4275 3575
+Wire Wire Line
+	4200 3575 4275 3575
+Connection ~ 4275 3575
+Wire Wire Line
+	4275 3575 4275 3825
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0157
+U 1 1 5FFAF8E7
+P 4275 3825
+F 0 "#PWR0157" H 4275 3575 50  0001 C CNN
+F 1 "GND" H 4280 3652 50  0000 C CNN
+F 2 "" H 4275 3825 50  0001 C CNN
+F 3 "" H 4275 3825 50  0001 C CNN
+	1    4275 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0158
+U 1 1 5FFB01FE
+P 4775 3825
+F 0 "#PWR0158" H 4775 3575 50  0001 C CNN
+F 1 "GND" H 4780 3652 50  0000 C CNN
+F 2 "" H 4775 3825 50  0001 C CNN
+F 3 "" H 4775 3825 50  0001 C CNN
+	1    4775 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 3225 4775 3825
+$Comp
+L rdimm-breakout:C_10u_25V_0603-rdimm-breakout C27
+U 1 1 5FFE9E64
+P 7900 1650
+F 0 "C27" H 7900 1750 60  0000 L CNN
+F 1 "C_10u_25V_0603" H 7900 1500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 8100 1850 60  0001 L CNN
+F 3 "" H 7900 1650 50  0001 C CNN
+F 4 "TDK" H 8100 2050 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1E106M080AC" H 8100 1950 60  0001 L CNN "MPN"
+F 6 "10u/25V" H 7900 1550 50  0000 L CNN "Val"
+	1    7900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10u_0603-rdimm-breakout C33
+U 1 1 60014B32
+P 6675 1650
+F 0 "C33" H 6700 1750 60  0000 L CNN
+F 1 "C_10u_0603" H 6675 1500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 6875 1850 60  0001 L CNN
+F 3 "" H 6675 1650 50  0001 C CNN
+F 4 "Murata" H 6875 2050 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R61A106KE69D" H 6875 1950 60  0001 L CNN "MPN"
+F 6 "10u" H 6700 1550 50  0000 L CNN "Val"
+	1    6675 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10u_25V_0603-rdimm-breakout C28
+U 1 1 60031E10
+P 8275 1650
+F 0 "C28" H 8300 1750 60  0000 L CNN
+F 1 "C_10u_25V_0603" H 8275 1500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 8475 1850 60  0001 L CNN
+F 3 "" H 8275 1650 50  0001 C CNN
+F 4 "TDK" H 8475 2050 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1E106M080AC" H 8475 1950 60  0001 L CNN "MPN"
+F 6 "10u/25V" H 8300 1550 50  0000 L CNN "Val"
+	1    8275 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10u_25V_0603-rdimm-breakout C29
+U 1 1 6003214B
+P 8650 1650
+F 0 "C29" H 8700 1750 60  0000 L CNN
+F 1 "C_10u_25V_0603" H 8650 1500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 8850 1850 60  0001 L CNN
+F 3 "" H 8650 1650 50  0001 C CNN
+F 4 "TDK" H 8850 2050 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1E106M080AC" H 8850 1950 60  0001 L CNN "MPN"
+F 6 "10u/25V" H 8675 1550 50  0000 L CNN "Val"
+	1    8650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0159
+U 1 1 6003313C
+P 8275 1800
+F 0 "#PWR0159" H 8275 1550 50  0001 C CNN
+F 1 "GND" H 8280 1627 50  0000 C CNN
+F 2 "" H 8275 1800 50  0001 C CNN
+F 3 "" H 8275 1800 50  0001 C CNN
+	1    8275 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0160
+U 1 1 6003331B
+P 8650 1800
+F 0 "#PWR0160" H 8650 1550 50  0001 C CNN
+F 1 "GND" H 8655 1627 50  0000 C CNN
+F 2 "" H 8650 1800 50  0001 C CNN
+F 3 "" H 8650 1800 50  0001 C CNN
+	1    8650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_100n_0402_16V-rdimm-breakout C30
+U 1 1 60033E34
+P 9025 1650
+F 0 "C30" H 9050 1750 60  0000 L CNN
+F 1 "C_100n_0402_16V" H 9025 1500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 9225 1850 60  0001 L CNN
+F 3 "" H 9025 1650 50  0001 C CNN
+F 4 "MULTICOMP" H 9225 2050 60  0001 L CNN "Manufacturer"
+F 5 "MC0402B104K160CT" H 9225 1950 60  0001 L CNN "MPN"
+F 6 "100n" H 9050 1550 50  0000 L CNN "Val"
+	1    9025 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0161
+U 1 1 60035B7F
+P 9025 1800
+F 0 "#PWR0161" H 9025 1550 50  0001 C CNN
+F 1 "GND" H 9030 1627 50  0000 C CNN
+F 2 "" H 9025 1800 50  0001 C CNN
+F 3 "" H 9025 1800 50  0001 C CNN
+	1    9025 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2325 2300 2650
+Wire Wire Line
+	2300 2325 3100 2325
+Text Notes 700  1650 0    50   ~ 0
+VIN 4.5V to 18V
+Text Notes 700  1750 0    50   ~ 0
+VCC5V0 4.5V to 5.5V
+Text Notes 6000 2225 0    50   ~ 0
+VDDQ 1.2V 8A
+Text GLabel 15450 7225 2    50   Input ~ 0
+3V3_SYS
+$Comp
+L rdimm-breakout:IHLP2020BZER4R7M01-rdimm-breakout L1
+U 1 1 6030F1D7
+P 4550 1875
+F 0 "L1" H 4475 1975 60  0000 C CNN
+F 1 "IHLP2020BZER4R7M01" H 5125 1975 60  0000 C CNN
+F 2 "rdimm-breakout-footprints:IHLP2020BZER4R7M01" H 4550 1875 60  0001 C CNN
+F 3 "" H 4550 1875 60  0001 C CNN
+F 4 "Vishay" H 4550 1875 50  0001 C CNN "Manufacturer"
+F 5 "IHLP1212AEERR47M11" H 4550 1875 50  0001 C CNN "MPN"
+	1    4550 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1875 4350 1875
+Wire Wire Line
+	4750 1875 4925 1875
+Connection ~ 4925 1875
+$Comp
+L rdimm-breakout:DFE322512F-R68M=P2-rdimm-breakout L2
+U 1 1 60328362
+P 5125 2325
+F 0 "L2" H 5025 2400 60  0000 C CNN
+F 1 "DFE322512F-R68M=P2" H 4775 2250 60  0000 C CNN
+F 2 "rdimm-breakout-footprints:INDC3225X120N" H 5125 2325 60  0001 C CNN
+F 3 "" H 5125 2325 60  0001 C CNN
+F 4 "Vishay" H 5125 2325 50  0001 C CNN "Manufacturer"
+F 5 "IHLP1212AEERR47M11" H 5125 2325 50  0001 C CNN "MPN"
+	1    5125 2325
+	1    0    0    -1  
+$EndComp
+Connection ~ 4925 2325
+Connection ~ 5325 2325
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout 5V0
+U 1 1 60212554
+P 13100 6225
+F 0 "5V0" V 13005 6272 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13100 6125 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 13300 6425 60  0001 L CNN
+F 3 "" H 13300 6525 60  0001 L CNN
+	1    13100 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout 2V5
+U 1 1 602C0646
+P 12500 6225
+F 0 "2V5" V 12405 6272 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12500 6125 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12700 6425 60  0001 L CNN
+F 3 "" H 12700 6525 60  0001 L CNN
+	1    12500 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout 1V2
+U 1 1 602C252D
+P 12700 6225
+F 0 "1V2" V 12605 6272 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12700 6125 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12900 6425 60  0001 L CNN
+F 3 "" H 12900 6525 60  0001 L CNN
+	1    12700 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout 0V6
+U 1 1 602C27EC
+P 12925 6225
+F 0 "0V6" V 12830 6272 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12925 6125 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 13125 6425 60  0001 L CNN
+F 3 "" H 13125 6525 60  0001 L CNN
+	1    12925 6225
+	1    0    0    -1  
+$EndComp
+Connection ~ 4775 2625
+Text Notes 9000 775  0    79   ~ 16
+Filtering
+Text Notes 13350 1775 0    79   ~ 16
+Power sequencer
+$Comp
+L rdimm-breakout:C_1u_0603-rdimm-breakout C4
+U 1 1 5FCD598A
+P 7550 1650
+F 0 "C4" H 7600 1750 60  0000 L CNN
+F 1 "C_1u_0603" H 7550 1500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 7750 1850 60  0001 L CNN
+F 3 "" H 7550 1650 50  0001 C CNN
+F 4 "WALSIN" H 7750 2050 60  0001 L CNN "Manufacturer"
+F 5 "0603YD105KAT2A" H 7750 1950 60  0001 L CNN "MPN"
+F 6 "1u" H 7600 1575 50  0000 L CNN "Val"
+	1    7550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10u_0603-rdimm-breakout C1
+U 1 1 5FCD6C58
+P 7075 1650
+F 0 "C1" H 7100 1750 60  0000 L CNN
+F 1 "C_10u_0603" H 7075 1500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 7275 1850 60  0001 L CNN
+F 3 "" H 7075 1650 50  0001 C CNN
+F 4 "Murata" H 7275 2050 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R61A106KE69D" H 7275 1950 60  0001 L CNN "MPN"
+F 6 "10u" H 7075 1575 50  0000 L CNN "Val"
+	1    7075 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_22u_0603-rdimm-breakout C31
+U 1 1 5FD8D44D
+P 9925 1675
+F 0 "C31" H 9950 1775 60  0000 L CNN
+F 1 "C_22u_0603" H 9925 1525 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 10125 1875 60  0001 L CNN
+F 3 "" H 9925 1675 50  0001 C CNN
+F 4 "MURATA" H 10125 2075 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 10125 1975 60  0001 L CNN "MPN"
+F 6 "22u" H 9950 1575 50  0000 L CNN "Val"
+	1    9925 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR05
+U 1 1 5FD8D453
+P 9925 1825
+F 0 "#PWR05" H 9925 1575 50  0001 C CNN
+F 1 "GND" H 9930 1652 50  0000 C CNN
+F 2 "" H 9925 1825 50  0001 C CNN
+F 3 "" H 9925 1825 50  0001 C CNN
+	1    9925 1825
+	1    0    0    -1  
+$EndComp
+Text GLabel 6175 6350 2    50   Input ~ 0
+VCC5V0_INT
+Wire Wire Line
+	5950 6350 6175 6350
+Connection ~ 5950 6350
+$Comp
+L rdimm-breakout:R_5R1_0402-rdimm-breakout R35
+U 1 1 609CC1B7
+P 4475 2175
+F 0 "R35" H 4300 2275 60  0000 C CNN
+F 1 "R_5R1_0402" H 4475 2025 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 4675 2375 60  0001 L CNN
+F 3 "" H 4475 2175 50  0001 C CNN
+F 4 "PANASONIC" H 4675 2575 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ5R1X" H 4675 2475 60  0001 L CNN "MPN"
+F 6 "5R1" H 4475 2175 50  0000 C CNN "Val"
+	1    4475 2175
+	1    0    0    -1  
+$EndComp
+Text Notes 7325 4900 0    79   ~ 16
+Input power connector
+Text Notes 12750 5275 0    79   ~ 16
+Probes
+Text GLabel 12550 3050 1    50   Input ~ 0
+VCC5V0_INT
+Wire Wire Line
+	13000 3425 12550 3425
+Wire Wire Line
+	12550 3425 12550 3050
+$Comp
+L rdimm-breakout:C_100n_0402_6V3-antmicroCapacitors0402-rdimm-breakout C101
+U 1 1 5FE75452
+P 14550 2875
+AR Path="/5FE75452" Ref="C101"  Part="1" 
+AR Path="/60225B0C/5FE75452" Ref="C101"  Part="1" 
+F 0 "C101" H 14665 2920 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 14550 2725 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 14750 3075 60  0001 L CNN
+F 3 "" H 14550 2875 50  0001 C CNN
+F 4 "Walsin" H 14750 3275 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 14750 3175 60  0001 L CNN "MPN"
+F 6 "100n" H 14665 2822 50  0000 L CNN "Val"
+	1    14550 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR023
+U 1 1 5FE7633A
+P 14550 3025
+F 0 "#PWR023" H 14550 2775 50  0001 C CNN
+F 1 "GND" H 14555 2852 50  0000 C CNN
+F 2 "" H 14550 3025 50  0001 C CNN
+F 3 "" H 14550 3025 50  0001 C CNN
+	1    14550 3025
+	1    0    0    -1  
+$EndComp
+Text GLabel 14550 2725 1    50   Input ~ 0
+VCC5V0_INT
+Text GLabel 12525 3525 0    50   Input ~ 0
+SYS_ON
+Wire Wire Line
+	12525 3525 13000 3525
+$Comp
+L rdimm-breakout:LM3881MME_NOPB-rdimm-breakout U10
+U 1 1 5FE68F88
+P 13400 3525
+F 0 "U10" H 13400 4018 60  0000 C CNN
+F 1 "LM3881MME_NOPB" H 13150 3175 60  0001 L CNN
+F 2 "rdimm-breakout-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 13600 3725 60  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm3881.pdf?ts=1607507933694&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fsequencers%252Fproducts.html" H 13600 3825 60  0001 L CNN
+F 4 "Texas Instruments" H 13400 3912 60  0000 C CNN "Manufacturer"
+F 5 "LM3881MME/NOPB" H 13400 3806 60  0000 C CNN "MPN"
+	1    13400 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR022
+U 1 1 5FE96A8E
+P 13900 4075
+F 0 "#PWR022" H 13900 3825 50  0001 C CNN
+F 1 "GND" H 13905 3902 50  0000 C CNN
+F 2 "" H 13900 4075 50  0001 C CNN
+F 3 "" H 13900 4075 50  0001 C CNN
+	1    13900 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13800 3725 13900 3725
+Wire Wire Line
+	13900 3725 13900 4075
+Wire Wire Line
+	13800 3425 13900 3425
+Text Label 14400 3425 0    50   ~ 0
+VCC_INT_EN
+Wire Wire Line
+	13800 3525 14075 3525
+Text Label 14400 3525 0    50   ~ 0
+VCC_AUX_EN
+Text Label 14400 3625 0    50   ~ 0
+VCC_IO_EN
+$Comp
+L rdimm-breakout:R_0R_0402-rdimm-breakout R55
+U 1 1 5FEBD15D
+P 12800 3925
+F 0 "R55" V 12755 3995 60  0000 L CNN
+F 1 "R_0R_0402" H 12800 3775 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 13000 4125 60  0001 L CNN
+F 3 "" H 12800 3925 50  0001 C CNN
+F 4 "PANASONIC" H 13000 4325 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 13000 4225 60  0001 L CNN "MPN"
+F 6 "0R" V 12853 3995 50  0000 L CNN "Val"
+	1    12800 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR021
+U 1 1 5FEBD76A
+P 12800 4075
+F 0 "#PWR021" H 12800 3825 50  0001 C CNN
+F 1 "GND" H 12805 3902 50  0000 C CNN
+F 2 "" H 12800 4075 50  0001 C CNN
+F 3 "" H 12800 4075 50  0001 C CNN
+	1    12800 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 3725 12800 3725
+Wire Wire Line
+	12800 3725 12800 3775
+Wire Wire Line
+	2225 6150 2650 6150
+Text Notes 13750 4750 0    47   ~ 0
+STEP1 - VCCINT   (1.0V) for FPGA\nSTEP2 - VCCAUX (1.8V, 2.5V, 1.2V) for FPGA and DDR\nSTEP3 - VCCIO  (3.3V, 1.2V,  0.6V) for FPGA, PHY and DDR
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C100
+U 1 1 5FEE4E91
+P 12450 3875
+F 0 "C100" H 12425 3775 60  0000 R CNN
+F 1 "C_10n_0603" H 12450 3725 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 12650 4075 60  0001 L CNN
+F 3 "" H 12450 3875 50  0001 C CNN
+F 4 "AVX" H 12650 4275 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 12650 4175 60  0001 L CNN "MPN"
+F 6 "10n" H 12425 3975 50  0000 R CNN "Val"
+	1    12450 3875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13000 3625 12450 3625
+Wire Wire Line
+	12450 3625 12450 3725
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR020
+U 1 1 5FEEBF8B
+P 12450 4075
+F 0 "#PWR020" H 12450 3825 50  0001 C CNN
+F 1 "GND" H 12455 3902 50  0000 C CNN
+F 2 "" H 12450 4075 50  0001 C CNN
+F 3 "" H 12450 4075 50  0001 C CNN
+	1    12450 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 4025 12450 4075
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP8
+U 1 1 5FF04F72
+P 14950 3625
+F 0 "TP8" V 14925 3525 50  0000 C CNN
+F 1 "TP_SMD1MM" H 14950 3525 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 15150 3825 60  0001 L CNN
+F 3 "" H 15150 3925 60  0001 L CNN
+	1    14950 3625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP7
+U 1 1 5FF061AA
+P 14950 3525
+F 0 "TP7" V 14925 3425 50  0000 C CNN
+F 1 "TP_SMD1MM" H 14950 3425 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 15150 3725 60  0001 L CNN
+F 3 "" H 15150 3825 60  0001 L CNN
+	1    14950 3525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP6
+U 1 1 5FF0650C
+P 14950 3425
+F 0 "TP6" V 14925 3325 50  0000 C CNN
+F 1 "TP_SMD1MM" H 14950 3325 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 15150 3625 60  0001 L CNN
+F 3 "" H 15150 3725 60  0001 L CNN
+	1    14950 3425
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2200 1875
+Wire Wire Line
+	2525 2625 3100 2625
+Text Notes 9900 4875 0    79   ~ 16
+Power switch
+Text Notes 8650 2575 0    79   ~ 16
+Plane Decoupling
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C106
+U 1 1 60003ED3
+P 7400 3375
+F 0 "C106" H 7515 3420 60  0000 L CNN
+F 1 "C_10n_0603" H 7400 3225 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 7600 3575 60  0001 L CNN
+F 3 "" H 7400 3375 50  0001 C CNN
+F 4 "AVX" H 7600 3775 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 7600 3675 60  0001 L CNN "MPN"
+F 6 "10n" H 7515 3322 50  0000 L CNN "Val"
+	1    7400 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR025
+U 1 1 6000438B
+P 7400 3525
+F 0 "#PWR025" H 7400 3275 50  0001 C CNN
+F 1 "GND" H 7405 3352 50  0000 C CNN
+F 2 "" H 7400 3525 50  0001 C CNN
+F 3 "" H 7400 3525 50  0001 C CNN
+	1    7400 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C107
+U 1 1 6001D22C
+P 7900 3375
+F 0 "C107" H 8015 3420 60  0000 L CNN
+F 1 "C_10n_0603" H 7900 3225 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 8100 3575 60  0001 L CNN
+F 3 "" H 7900 3375 50  0001 C CNN
+F 4 "AVX" H 8100 3775 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 8100 3675 60  0001 L CNN "MPN"
+F 6 "10n" H 8015 3322 50  0000 L CNN "Val"
+	1    7900 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR026
+U 1 1 6001D232
+P 7900 3525
+F 0 "#PWR026" H 7900 3275 50  0001 C CNN
+F 1 "GND" H 7905 3352 50  0000 C CNN
+F 2 "" H 7900 3525 50  0001 C CNN
+F 3 "" H 7900 3525 50  0001 C CNN
+	1    7900 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C108
+U 1 1 60023729
+P 8325 3400
+F 0 "C108" H 8440 3445 60  0000 L CNN
+F 1 "C_10n_0603" H 8325 3250 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 8525 3600 60  0001 L CNN
+F 3 "" H 8325 3400 50  0001 C CNN
+F 4 "AVX" H 8525 3800 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 8525 3700 60  0001 L CNN "MPN"
+F 6 "10n" H 8440 3347 50  0000 L CNN "Val"
+	1    8325 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR027
+U 1 1 6002372F
+P 8325 3550
+F 0 "#PWR027" H 8325 3300 50  0001 C CNN
+F 1 "GND" H 8330 3377 50  0000 C CNN
+F 2 "" H 8325 3550 50  0001 C CNN
+F 3 "" H 8325 3550 50  0001 C CNN
+	1    8325 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C109
+U 1 1 60029BE0
+P 8800 3400
+F 0 "C109" H 8915 3445 60  0000 L CNN
+F 1 "C_10n_0603" H 8800 3250 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 9000 3600 60  0001 L CNN
+F 3 "" H 8800 3400 50  0001 C CNN
+F 4 "AVX" H 9000 3800 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 9000 3700 60  0001 L CNN "MPN"
+F 6 "10n" H 8915 3347 50  0000 L CNN "Val"
+	1    8800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR028
+U 1 1 60029BE6
+P 8800 3550
+F 0 "#PWR028" H 8800 3300 50  0001 C CNN
+F 1 "GND" H 8805 3377 50  0000 C CNN
+F 2 "" H 8800 3550 50  0001 C CNN
+F 3 "" H 8800 3550 50  0001 C CNN
+	1    8800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C110
+U 1 1 60050A58
+P 9425 3425
+F 0 "C110" H 9540 3470 60  0000 L CNN
+F 1 "C_10n_0603" H 9425 3275 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 9625 3625 60  0001 L CNN
+F 3 "" H 9425 3425 50  0001 C CNN
+F 4 "AVX" H 9625 3825 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 9625 3725 60  0001 L CNN "MPN"
+F 6 "10n" H 9540 3372 50  0000 L CNN "Val"
+	1    9425 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR029
+U 1 1 60050DBC
+P 9425 3575
+F 0 "#PWR029" H 9425 3325 50  0001 C CNN
+F 1 "GND" H 9430 3402 50  0000 C CNN
+F 2 "" H 9425 3575 50  0001 C CNN
+F 3 "" H 9425 3575 50  0001 C CNN
+	1    9425 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C111
+U 1 1 600519C1
+P 9925 3425
+F 0 "C111" H 10040 3470 60  0000 L CNN
+F 1 "C_10n_0603" H 9925 3275 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 10125 3625 60  0001 L CNN
+F 3 "" H 9925 3425 50  0001 C CNN
+F 4 "AVX" H 10125 3825 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 10125 3725 60  0001 L CNN "MPN"
+F 6 "10n" H 10040 3372 50  0000 L CNN "Val"
+	1    9925 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR030
+U 1 1 600519C7
+P 9925 3575
+F 0 "#PWR030" H 9925 3325 50  0001 C CNN
+F 1 "GND" H 9930 3402 50  0000 C CNN
+F 2 "" H 9925 3575 50  0001 C CNN
+F 3 "" H 9925 3575 50  0001 C CNN
+	1    9925 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C112
+U 1 1 60057FF0
+P 10400 3425
+F 0 "C112" H 10515 3470 60  0000 L CNN
+F 1 "C_10n_0603" H 10400 3275 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 10600 3625 60  0001 L CNN
+F 3 "" H 10400 3425 50  0001 C CNN
+F 4 "AVX" H 10600 3825 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 10600 3725 60  0001 L CNN "MPN"
+F 6 "10n" H 10515 3372 50  0000 L CNN "Val"
+	1    10400 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR031
+U 1 1 60057FF6
+P 10400 3575
+F 0 "#PWR031" H 10400 3325 50  0001 C CNN
+F 1 "GND" H 10405 3402 50  0000 C CNN
+F 2 "" H 10400 3575 50  0001 C CNN
+F 3 "" H 10400 3575 50  0001 C CNN
+	1    10400 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_10n_0603-rdimm-breakout C113
+U 1 1 6005E663
+P 10850 3425
+F 0 "C113" H 10965 3470 60  0000 L CNN
+F 1 "C_10n_0603" H 10850 3275 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 11050 3625 60  0001 L CNN
+F 3 "" H 10850 3425 50  0001 C CNN
+F 4 "AVX" H 11050 3825 60  0001 L CNN "Manufacturer"
+F 5 "06031C103JAT2A" H 11050 3725 60  0001 L CNN "MPN"
+F 6 "10n" H 10965 3372 50  0000 L CNN "Val"
+	1    10850 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR032
+U 1 1 6005E669
+P 10850 3575
+F 0 "#PWR032" H 10850 3325 50  0001 C CNN
+F 1 "GND" H 10855 3402 50  0000 C CNN
+F 2 "" H 10850 3575 50  0001 C CNN
+F 3 "" H 10850 3575 50  0001 C CNN
+	1    10850 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:EG1218-rdimm-breakout S1
+U 1 1 602873C2
+P 10625 5525
+F 0 "S1" H 10625 5806 50  0000 C CNN
+F 1 "EG1218" H 10625 5715 50  0000 C CNN
+F 2 "rdimm-breakout-footprints:Switch_Slide_11.6x4mm_EG1218" H 10825 5725 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 10825 5825 60  0001 L CNN
+F 4 "EG1218" H 10825 6025 60  0001 L CNN "MPN"
+F 5 "E-Switch" H 10825 6625 60  0001 L CNN "Manufacturer"
+	1    10625 5525
+	1    0    0    -1  
+$EndComp
+Text Label 2250 6150 0    50   ~ 0
+SYS_EN
+Text Label 9950 5525 0    50   ~ 0
+SYS_EN
+Wire Wire Line
+	10425 5525 9800 5525
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR035
+U 1 1 602A0B72
+P 10950 5800
+F 0 "#PWR035" H 10950 5550 50  0001 C CNN
+F 1 "GND" H 10955 5627 50  0000 C CNN
+F 2 "" H 10950 5800 50  0001 C CNN
+F 3 "" H 10950 5800 50  0001 C CNN
+	1    10950 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10825 5625 10950 5625
+Wire Wire Line
+	10950 5625 10950 5800
+$Comp
+L rdimm-breakout:C_47u_16V_1206-rdimm-breakout C116
+U 1 1 602EDD65
+P 1000 5300
+F 0 "C116" H 1115 5345 60  0000 L CNN
+F 1 "C_47u_16V_1206" H 1000 5150 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:1206-cap" H 1200 5500 60  0001 L CNN
+F 3 "" H 1000 5300 50  0001 C CNN
+F 4 "TDK" H 1200 5700 60  0001 L CNN "Manufacturer"
+F 5 "C3216X5R1C476M160AB" H 1200 5600 60  0001 L CNN "MPN"
+F 6 "47u/16V" H 1115 5247 50  0000 L CNN "Val"
+	1    1000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_47u_16V_1206-rdimm-breakout C117
+U 1 1 602EFA5A
+P 1575 5300
+F 0 "C117" H 1690 5345 60  0000 L CNN
+F 1 "C_47u_16V_1206" H 1575 5150 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:1206-cap" H 1775 5500 60  0001 L CNN
+F 3 "" H 1575 5300 50  0001 C CNN
+F 4 "TDK" H 1775 5700 60  0001 L CNN "Manufacturer"
+F 5 "C3216X5R1C476M160AB" H 1775 5600 60  0001 L CNN "MPN"
+F 6 "47u/16V" H 1690 5247 50  0000 L CNN "Val"
+	1    1575 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_47u_16V_1206-rdimm-breakout C118
+U 1 1 602EFC89
+P 2150 5300
+F 0 "C118" H 2265 5345 60  0000 L CNN
+F 1 "C_47u_16V_1206" H 2150 5150 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:1206-cap" H 2350 5500 60  0001 L CNN
+F 3 "" H 2150 5300 50  0001 C CNN
+F 4 "TDK" H 2350 5700 60  0001 L CNN "Manufacturer"
+F 5 "C3216X5R1C476M160AB" H 2350 5600 60  0001 L CNN "MPN"
+F 6 "47u/16V" H 2265 5247 50  0000 L CNN "Val"
+	1    2150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:PDS760-13-rdimm-breakout D11
+U 1 1 6034544D
+P 8225 5550
+F 0 "D11" H 8305 5550 60  0000 L CNN
+F 1 "PDS760-13" H 8325 5450 60  0001 L BNN
+F 2 "rdimm-breakout-footprints:PDS760-13" H 8225 5550 60  0001 C CNN
+F 3 "" H 8225 5550 60  0001 C CNN
+F 4 "Diodes Inc." H 8225 5550 50  0001 C CNN "Manufacturer"
+F 5 "PDS760-13" H 8550 5450 50  0000 C CNN "MPN"
+	1    8225 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 5350 8225 5450
+$Comp
+L rdimm-breakout:R_10k_0402-rdimm-breakout R86
+U 1 1 605A4625
+P 13900 3025
+F 0 "R86" V 13750 3025 60  0000 L CNN
+F 1 "R_10k_0402" H 13900 2875 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 14100 3225 60  0001 L CNN
+F 3 "" H 13900 3025 50  0001 C CNN
+F 4 "VISHAY" H 14100 3425 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 14100 3325 60  0001 L CNN "MPN"
+F 6 "10k" V 14050 3025 50  0000 L CNN "Val"
+	1    13900 3025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13900 3175 13900 3425
+Connection ~ 13900 3425
+Wire Wire Line
+	13900 3425 14850 3425
+$Comp
+L rdimm-breakout:R_10k_0402-rdimm-breakout R87
+U 1 1 605B87F5
+P 14075 3025
+F 0 "R87" V 13925 3025 60  0000 L CNN
+F 1 "R_10k_0402" H 14075 2875 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 14275 3225 60  0001 L CNN
+F 3 "" H 14075 3025 50  0001 C CNN
+F 4 "VISHAY" H 14275 3425 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 14275 3325 60  0001 L CNN "MPN"
+F 6 "10k" V 14225 3025 50  0000 L CNN "Val"
+	1    14075 3025
+	0    1    1    0   
+$EndComp
+$Comp
+L rdimm-breakout:R_10k_0402-rdimm-breakout R88
+U 1 1 605B94B6
+P 14250 3025
+F 0 "R88" V 14100 3025 60  0000 L CNN
+F 1 "R_10k_0402" H 14250 2875 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 14450 3225 60  0001 L CNN
+F 3 "" H 14250 3025 50  0001 C CNN
+F 4 "VISHAY" H 14450 3425 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 14450 3325 60  0001 L CNN "MPN"
+F 6 "10k" V 14400 3025 50  0000 L CNN "Val"
+	1    14250 3025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14075 3175 14075 3525
+Connection ~ 14075 3525
+Wire Wire Line
+	14075 3525 14850 3525
+Wire Wire Line
+	14250 3175 14250 3625
+Wire Wire Line
+	13800 3625 14250 3625
+Connection ~ 14250 3625
+Wire Wire Line
+	14250 3625 14850 3625
+Wire Wire Line
+	14250 2875 14250 2750
+Wire Wire Line
+	14250 2750 14075 2750
+Wire Wire Line
+	13900 2750 13900 2875
+Wire Wire Line
+	14075 2875 14075 2750
+Connection ~ 14075 2750
+Wire Wire Line
+	14075 2750 13900 2750
+Connection ~ 13900 2750
+Wire Wire Line
+	13800 2750 13900 2750
+Text GLabel 13800 2750 0    50   Input ~ 0
+VCC5V0_INT
+Wire Notes Line
+	475  8300 16075 8300
+Wire Notes Line
+	7000 4275 7000 8300
+Wire Notes Line
+	475  4275 11800 4275
+Wire Notes Line
+	11800 475  11800 9950
+Wire Notes Line
+	11800 5000 16050 5000
+$Comp
+L rdimm-breakout:TPS65295RJET-rdimm-breakout U2
+U 1 1 61282A74
+P 3650 2625
+F 0 "U2" H 3878 2678 60  0000 L CNN
+F 1 "TPS65295RJET" H 3350 1525 60  0000 L CNN
+F 2 "rdimm-breakout-footprints:TPS65295RJET" H 4850 2125 60  0001 C CNN
+F 3 "" H 4800 2275 60  0000 C CNN
+F 4 "TPS65295RJET" H 4800 2275 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 4800 2275 50  0001 C CNN "Manufacturer"
+	1    3650 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_100n_0603-rdimm-breakout C2
+U 1 1 5FCD7977
+P 7300 1650
+F 0 "C2" H 7325 1750 60  0000 L CNN
+F 1 "C_100n_0603" H 7300 1500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 7500 1850 60  0001 L CNN
+F 3 "" H 7300 1650 50  0001 C CNN
+F 4 "AVX" H 7500 2050 60  0001 L CNN "Manufacturer"
+F 5 "0603YC104KAZ2A" H 7500 1950 60  0001 L CNN "MPN"
+F 6 "100n" H 7325 1575 50  0000 L CNN "Val"
+	1    7300 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 1875 2    50   Input ~ 0
+VCC2V5
+Text Notes 6025 1800 0    50   ~ 0
+VPP 2.5V 1A
+$Comp
+L rdimm-breakout:C_22u_0603-rdimm-breakout C159
+U 1 1 612EC84F
+P 11550 1675
+F 0 "C159" H 11575 1775 60  0000 L CNN
+F 1 "C_22u_0603" H 11550 1525 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-cap" H 11750 1875 60  0001 L CNN
+F 3 "" H 11550 1675 50  0001 C CNN
+F 4 "MURATA" H 11750 2075 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J226MEA0D" H 11750 1975 60  0001 L CNN "MPN"
+F 6 "22u" H 11575 1575 50  0000 L CNN "Val"
+	1    11550 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0147
+U 1 1 612EC855
+P 11550 1825
+F 0 "#PWR0147" H 11550 1575 50  0001 C CNN
+F 1 "GND" H 11555 1652 50  0000 C CNN
+F 2 "" H 11550 1825 50  0001 C CNN
+F 3 "" H 11550 1825 50  0001 C CNN
+	1    11550 1825
+	1    0    0    -1  
+$EndComp
+Text Notes 6000 2550 0    50   ~ 0
+VTT 0.6V 1A
+$Comp
+L rdimm-breakout:C_10u_0402-rdimm-breakout C38
+U 1 1 5FF6BF00
+P 9525 1675
+F 0 "C38" H 9550 1775 60  0000 L CNN
+F 1 "C_10u_0402" H 9525 1525 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 9725 1875 60  0001 L CNN
+F 3 "" H 9525 1675 50  0001 C CNN
+F 4 "MURATA" H 9725 2075 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 9725 1975 60  0001 L CNN "MPN"
+F 6 "10u" H 9575 1575 50  0000 L CNN "Val"
+	1    9525 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR0156
+U 1 1 5FF6C3A4
+P 9525 1825
+F 0 "#PWR0156" H 9525 1575 50  0001 C CNN
+F 1 "GND" H 9530 1652 50  0000 C CNN
+F 2 "" H 9525 1825 50  0001 C CNN
+F 3 "" H 9525 1825 50  0001 C CNN
+	1    9525 1825
+	1    0    0    -1  
+$EndComp
+Text Label 4775 2925 2    50   ~ 0
+VTTREF
+Text Label 2525 2775 0    50   ~ 0
+VCC_IO_EN
+Text Label 2525 2625 0    50   ~ 0
+VCC_AUX_EN
+Text GLabel 9425 3275 1    50   Input ~ 0
+VPP
+Text GLabel 9925 3275 1    50   Input ~ 0
+VPP
+Text GLabel 10400 3275 1    50   Input ~ 0
+VPP
+Text GLabel 10850 3275 1    50   Input ~ 0
+VPP
+Text Notes 8050 1025 0    39   ~ 0
+Input
+Text Notes 10525 1050 0    39   ~ 0
+Output
+Wire Notes Line
+	9275 2000 9275 925 
+Text GLabel 7400 3225 1    50   Input ~ 0
+VDDQ
+Text GLabel 7900 3225 1    50   Input ~ 0
+VDDQ
+Text GLabel 8325 3250 1    50   Input ~ 0
+VDDQ
+Text GLabel 8800 3250 1    50   Input ~ 0
+VDDQ
+Text GLabel 15525 6100 2    50   Input ~ 0
+VTT
+Text GLabel 15500 5900 2    50   Input ~ 0
+VDDQ
+Text GLabel 15525 5700 2    50   Input ~ 0
+VPP
+$Comp
+L rdimm-breakout:R_0R_0603-rdimm-breakout R161
+U 1 1 6177CC40
+P 15125 6100
+F 0 "R161" H 14925 6150 60  0000 C CNN
+F 1 "R_0R_0603" H 15125 5950 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-res" H 15325 6300 60  0001 L CNN
+F 3 "" H 15125 6100 50  0001 C CNN
+F 4 "BOURNS" H 15325 6500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 15325 6400 60  0001 L CNN "MPN"
+F 6 "0R" H 15200 6000 50  0000 C CNN "Val"
+	1    15125 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:R_0R_0603-rdimm-breakout R159
+U 1 1 6177CC49
+P 15125 5700
+F 0 "R159" H 14925 5750 60  0000 C CNN
+F 1 "R_0R_0603" H 15125 5550 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-res" H 15325 5900 60  0001 L CNN
+F 3 "" H 15125 5700 50  0001 C CNN
+F 4 "BOURNS" H 15325 6100 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 15325 6000 60  0001 L CNN "MPN"
+F 6 "0R" H 15300 5450 50  0000 C CNN "Val"
+	1    15125 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15275 5900 15500 5900
+Wire Wire Line
+	15275 5700 15525 5700
+Wire Wire Line
+	15275 6100 15525 6100
+Wire Wire Line
+	14825 5700 14975 5700
+Wire Wire Line
+	14975 5900 14825 5900
+Wire Wire Line
+	14975 6100 14825 6100
+Wire Wire Line
+	4925 1875 6100 1875
+Text GLabel 9525 1525 1    50   Input ~ 0
+VCC0V6
+Text GLabel 9925 1525 1    50   Input ~ 0
+VCC2V5
+Wire Wire Line
+	5325 2325 6125 2325
+Wire Wire Line
+	4775 2625 6125 2625
+Text GLabel 10275 1525 1    50   Input ~ 0
+VDD1V2
+Text GLabel 10600 1525 1    50   Input ~ 0
+VDD1V2
+Text GLabel 10925 1525 1    50   Input ~ 0
+VDD1V2
+Text GLabel 11250 1525 1    50   Input ~ 0
+VDD1V2
+Text GLabel 11550 1525 1    50   Input ~ 0
+VDD1V2
+Text GLabel 14825 6100 0    50   Input ~ 0
+VCC0V6
+Text GLabel 14825 5900 0    50   Input ~ 0
+VDD1V2
+Text GLabel 14825 5700 0    50   Input ~ 0
+VCC2V5
+Wire Wire Line
+	1100 2650 2300 2650
+Wire Wire Line
+	2900 2175 3100 2175
+Text GLabel 12925 6125 1    50   Input ~ 0
+VCC0V6
+Text GLabel 12500 6125 1    50   Input ~ 0
+VCC2V5
+Text GLabel 12700 6125 1    50   Input ~ 0
+VDD1V2
+Text Notes 15025 5525 0    39   ~ 0
+Output
+Text Label 2800 2325 0    50   ~ 0
+VLDOIN
+Text Label 6675 1150 3    50   ~ 0
+VLDOIN
+Wire Wire Line
+	6675 1500 6675 1150
+Text GLabel 14775 7225 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	14775 7225 14975 7225
+Wire Wire Line
+	15275 7225 15450 7225
+Text GLabel 14775 7000 0    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	14775 7000 14975 7000
+Text GLabel 15450 7000 2    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	15275 7000 15450 7000
+Text GLabel 5000 5675 1    50   Input ~ 0
+VCC5V0
+Wire Wire Line
+	5000 6350 5000 5675
+Text GLabel 13100 6125 1    50   Input ~ 0
+VCC5V0
+Text GLabel 13300 6125 1    50   Input ~ 0
+VIN
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout 12V1
+U 1 1 62506200
+P 13300 6225
+F 0 "12V1" V 13205 6272 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13300 6125 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 13500 6425 60  0001 L CNN
+F 3 "" H 13500 6525 60  0001 L CNN
+	1    13300 6225
+	1    0    0    -1  
+$EndComp
+Text Notes 12575 5675 0    39   ~ 0
+DDR4
+Text GLabel 2500 5700 1    50   Input ~ 0
+VIN
+Text GLabel 2900 2175 0    50   Input ~ 0
+VIN
+Text GLabel 7900 1500 1    50   Input ~ 0
+VIN
+Text GLabel 8275 1500 1    50   Input ~ 0
+VIN
+Text GLabel 8650 1500 1    50   Input ~ 0
+VIN
+Text GLabel 9025 1500 1    50   Input ~ 0
+VIN
+Text GLabel 1050 1875 0    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	2875 2025 2875 1875
+Wire Wire Line
+	2875 2025 3100 2025
+Connection ~ 2875 1875
+Wire Wire Line
+	2875 1875 3100 1875
+Text GLabel 7300 1500 1    50   Input ~ 0
+5V0_SYS
+Text GLabel 7550 1500 1    50   Input ~ 0
+5V0_SYS
+Text GLabel 1100 2650 0    50   Input ~ 0
+VDD1V2
+Text Notes 14650 5275 0    79   ~ 16
+Shunt resistors
+Wire Wire Line
+	1050 1875 2200 1875
+Text GLabel 7075 1500 1    50   Input ~ 0
+5V0_SYS
+$Comp
+L rdimm-breakout:1206L450SLWR-rdimm-breakout F1
+U 1 1 61277451
+P 15125 5900
+F 0 "F1" H 14975 5950 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 5975 50  0000 C CNN
+F 2 "rdimm-breakout-footprints:1206-res" H 15175 5675 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5750 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 5600 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 5525 50  0001 C CNN "Manufacturer"
+	1    15125 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:1206L450SLWR-rdimm-breakout F2
+U 1 1 61A05999
+P 15125 7000
+F 0 "F2" H 14975 7050 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7075 50  0000 C CNN
+F 2 "rdimm-breakout-footprints:1206-res" H 15175 6775 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6850 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 6700 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 6625 50  0001 C CNN "Manufacturer"
+	1    15125 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:1206L450SLWR-rdimm-breakout F3
+U 1 1 61A082F9
+P 15125 7225
+F 0 "F3" H 14975 7275 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7300 50  0000 C CNN
+F 2 "rdimm-breakout-footprints:1206-res" H 15175 7000 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7075 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 6925 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 6850 50  0001 C CNN "Manufacturer"
+	1    15125 7225
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	14225 5000 14225 9950
+$EndSCHEMATC
