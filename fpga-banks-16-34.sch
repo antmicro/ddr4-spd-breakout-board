@@ -17,28 +17,28 @@ Text Notes 525  7625 1    50   ~ 0
 HDMI
 Text Notes 6125 4800 0    50   ~ 0
 Default 000
-Text Notes 7500 5675 0    50   ~ 0
+Text Notes 4850 6225 0    50   ~ 0
 Open drain pin
 Wire Wire Line
-	7425 5250 7425 5425
-Text GLabel 7425 5425 3    50   Input ~ 0
+	4775 5800 4775 5975
+Text GLabel 4775 5975 3    50   Input ~ 0
 ~EVENT
 $Comp
 L rdimm-breakout:R_4k7_0402-rdimm-breakout R170
 U 1 1 628AFA47
-P 7425 5100
-F 0 "R170" V 7275 5125 60  0000 L CNN
-F 1 "R_4k7_0402" H 7425 4950 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0402-res" H 7625 5300 60  0001 L CNN
-F 3 "" H 7425 5100 50  0001 C CNN
-F 4 "VISHAY" H 7625 5500 60  0001 L CNN "Manufacturer"
-F 5 "MCS04020C4701FE000" H 7625 5400 60  0001 L CNN "MPN"
-F 6 "4k7" V 7575 5125 50  0000 L CNN "Val"
-	1    7425 5100
+P 4775 5650
+F 0 "R170" V 4625 5675 60  0000 L CNN
+F 1 "R_4k7_0402" H 4775 5500 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 4975 5850 60  0001 L CNN
+F 3 "" H 4775 5650 50  0001 C CNN
+F 4 "VISHAY" H 4975 6050 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 4975 5950 60  0001 L CNN "MPN"
+F 6 "4k7" V 4925 5675 50  0000 L CNN "Val"
+	1    4775 5650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7425 4950 7425 4800
+	4775 5500 4775 5350
 Text Notes 5625 4700 0    98   ~ 20
 Serial adress select
 Wire Wire Line
@@ -364,6 +364,113 @@ Wire Wire Line
 	8900 5425 8650 5425
 Text GLabel 5950 6125 0    50   Input ~ 0
 SA2
-Text GLabel 7425 4800 1    50   Input ~ 0
+Text GLabel 4775 5350 1    50   Input ~ 0
 VDDQ
+Wire Wire Line
+	12925 5100 12225 5100
+Wire Wire Line
+	12925 5000 12225 5000
+Text GLabel 12150 5100 0    50   Input ~ 0
+SDA_1V2
+Text GLabel 12150 5000 0    50   Input ~ 0
+SCL_1V2
+$Comp
+L rdimm-breakout:R_0R_0402-rdimm-breakout R1
+U 1 1 61B29083
+P 9375 6150
+F 0 "R1" H 9075 6250 60  0000 L CNN
+F 1 "R_0R_0402" H 9375 6000 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 9575 6350 60  0001 L CNN
+F 3 "" H 9375 6150 50  0001 C CNN
+F 4 "PANASONIC" H 9575 6550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9575 6450 60  0001 L CNN "MPN"
+F 6 "DNP" H 9300 6150 50  0000 L CNN "DNP"
+	1    9375 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:R_0R_0402-rdimm-breakout R2
+U 1 1 61B2908C
+P 9375 6325
+F 0 "R2" H 9075 6425 60  0000 L CNN
+F 1 "R_0R_0402" H 9375 6175 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 9575 6525 60  0001 L CNN
+F 3 "" H 9375 6325 50  0001 C CNN
+F 4 "PANASONIC" H 9575 6725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9575 6625 60  0001 L CNN "MPN"
+F 6 "DNP" H 9300 6325 50  0000 L CNN "DNP"
+	1    9375 6325
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8275 5900 10475 5900
+Wire Notes Line
+	10475 5900 10475 6575
+Wire Notes Line
+	10475 6575 8275 6575
+Wire Notes Line
+	8275 6575 8275 5900
+Text Notes 8375 6000 0    50   ~ 0
+Bypass I2C 
+Text Notes 8325 6525 0    39   ~ 0
+IF mounted Do not populate I2C logic translator
+Wire Wire Line
+	9225 6325 8900 6325
+Wire Wire Line
+	9225 6150 8900 6150
+Text GLabel 8900 6325 0    50   Input ~ 0
+SDA_1V2
+Text GLabel 8900 6150 0    50   Input ~ 0
+SCL_1V2
+Wire Wire Line
+	9525 6150 9925 6150
+Wire Wire Line
+	9525 6325 9925 6325
+Text GLabel 9925 6325 2    50   Input ~ 0
+SDA_2V5
+Text GLabel 9925 6150 2    50   Input ~ 0
+SCL_2V5
+Text Notes 12050 4650 0    98   ~ 20
+I2C header
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP2
+U 1 1 61B53CB4
+P 12225 5200
+F 0 "TP2" V 12225 5150 50  0000 R CNN
+F 1 "TP_SMD1MM" H 12225 5100 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12425 5400 60  0001 L CNN
+F 3 "" H 12425 5500 60  0001 L CNN
+	1    12225 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 12225 5100
+Wire Wire Line
+	12225 5100 12150 5100
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP1
+U 1 1 61B5478E
+P 12225 4900
+F 0 "TP1" V 12225 4850 50  0000 R CNN
+F 1 "TP_SMD1MM" H 12225 4800 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12425 5100 60  0001 L CNN
+F 3 "" H 12425 5200 60  0001 L CNN
+	1    12225 4900
+	-1   0    0    1   
+$EndComp
+Connection ~ 12225 5000
+Wire Wire Line
+	12225 5000 12150 5000
+$Comp
+L rdimm-breakout:61300211121 J4
+U 1 1 61B5CEFA
+P 13025 5100
+F 0 "J4" V 13116 4972 50  0000 R CNN
+F 1 "61300211121" V 13025 4972 50  0000 R CNN
+F 2 "rdimm-breakout-footprints:PinHeader_1x2_P2.54_Drill0.9mm" H 13225 5300 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 13225 5400 60  0001 L CNN
+F 4 "61300211121" H 13225 5600 60  0001 L CNN "MPN"
+F 5 "Wurth Electronic" H 13225 6200 60  0001 L CNN "Manufacturer"
+	1    13025 5100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

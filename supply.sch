@@ -596,27 +596,23 @@ $EndComp
 $Comp
 L rdimm-breakout:R_100k_0402-rdimm-breakout R40
 U 1 1 5FD504C3
-P 2200 2250
-F 0 "R40" V 2350 2250 60  0000 R CNN
-F 1 "R_100k_0402" H 2200 2100 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0402-res" H 2400 2450 60  0001 L CNN
-F 3 "" H 2200 2250 50  0001 C CNN
-F 4 "VISHAY" H 2400 2650 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 2400 2550 60  0001 L CNN "MPN"
-F 6 "100k" H 2300 2250 50  0000 R CNN "Val"
-	1    2200 2250
+P 1650 2250
+F 0 "R40" V 1800 2250 60  0000 R CNN
+F 1 "R_100k_0402" H 1650 2100 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 1850 2450 60  0001 L CNN
+F 3 "" H 1650 2250 50  0001 C CNN
+F 4 "VISHAY" H 1850 2650 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 1850 2550 60  0001 L CNN "MPN"
+F 6 "100k" H 1750 2250 50  0000 R CNN "Val"
+	1    1650 2250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2200 2400 2200 2475
+	1650 2400 1650 2475
 Wire Wire Line
-	2200 2475 3100 2475
+	1650 2475 3100 2475
 Wire Wire Line
-	2200 2100 2200 1875
-Wire Wire Line
-	2200 1875 2875 1875
-Wire Wire Line
-	2525 2775 3100 2775
+	1650 2100 1650 1875
 Wire Wire Line
 	4200 2025 4925 2025
 Wire Wire Line
@@ -928,17 +924,13 @@ F 3 "" H 9025 1800 50  0001 C CNN
 	1    9025 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 2325 2300 2650
-Wire Wire Line
-	2300 2325 3100 2325
 Text Notes 700  1650 0    50   ~ 0
 VIN 4.5V to 18V
 Text Notes 700  1750 0    50   ~ 0
 VCC5V0 4.5V to 5.5V
 Text Notes 6000 2225 0    50   ~ 0
 VDDQ 1.2V 8A
-Text GLabel 15450 7225 2    50   Input ~ 0
+Text GLabel 15225 2750 2    50   Input ~ 0
 3V3_SYS
 $Comp
 L rdimm-breakout:IHLP2020BZER4R7M01-rdimm-breakout L1
@@ -976,52 +968,50 @@ Connection ~ 5325 2325
 $Comp
 L rdimm-breakout:TP_SMD1MM-rdimm-breakout 5V0
 U 1 1 60212554
-P 13100 6225
-F 0 "5V0" V 13005 6272 50  0000 C CNN
-F 1 "TP_SMD1MM" H 13100 6125 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 13300 6425 60  0001 L CNN
-F 3 "" H 13300 6525 60  0001 L CNN
-	1    13100 6225
+P 12875 1750
+F 0 "5V0" V 12780 1797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12875 1650 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 13075 1950 60  0001 L CNN
+F 3 "" H 13075 2050 60  0001 L CNN
+	1    12875 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L rdimm-breakout:TP_SMD1MM-rdimm-breakout 2V5
 U 1 1 602C0646
-P 12500 6225
-F 0 "2V5" V 12405 6272 50  0000 C CNN
-F 1 "TP_SMD1MM" H 12500 6125 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12700 6425 60  0001 L CNN
-F 3 "" H 12700 6525 60  0001 L CNN
-	1    12500 6225
+P 12275 1750
+F 0 "2V5" V 12180 1797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12275 1650 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12475 1950 60  0001 L CNN
+F 3 "" H 12475 2050 60  0001 L CNN
+	1    12275 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L rdimm-breakout:TP_SMD1MM-rdimm-breakout 1V2
 U 1 1 602C252D
-P 12700 6225
-F 0 "1V2" V 12605 6272 50  0000 C CNN
-F 1 "TP_SMD1MM" H 12700 6125 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12900 6425 60  0001 L CNN
-F 3 "" H 12900 6525 60  0001 L CNN
-	1    12700 6225
+P 12475 1750
+F 0 "1V2" V 12380 1797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12475 1650 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12675 1950 60  0001 L CNN
+F 3 "" H 12675 2050 60  0001 L CNN
+	1    12475 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L rdimm-breakout:TP_SMD1MM-rdimm-breakout 0V6
 U 1 1 602C27EC
-P 12925 6225
-F 0 "0V6" V 12830 6272 50  0000 C CNN
-F 1 "TP_SMD1MM" H 12925 6125 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 13125 6425 60  0001 L CNN
-F 3 "" H 13125 6525 60  0001 L CNN
-	1    12925 6225
+P 12700 1750
+F 0 "0V6" V 12605 1797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12700 1650 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 12900 1950 60  0001 L CNN
+F 3 "" H 12900 2050 60  0001 L CNN
+	1    12700 1750
 	1    0    0    -1  
 $EndComp
 Connection ~ 4775 2625
 Text Notes 9000 775  0    79   ~ 16
 Filtering
-Text Notes 13350 1775 0    79   ~ 16
-Power sequencer
 $Comp
 L rdimm-breakout:C_1u_0603-rdimm-breakout C4
 U 1 1 5FCD598A
@@ -1096,185 +1086,11 @@ F 6 "5R1" H 4475 2175 50  0000 C CNN "Val"
 $EndComp
 Text Notes 7325 4900 0    79   ~ 16
 Input power connector
-Text Notes 12750 5275 0    79   ~ 16
+Text Notes 12525 800  0    79   ~ 16
 Probes
-Text GLabel 12550 3050 1    50   Input ~ 0
-VCC5V0_INT
-Wire Wire Line
-	13000 3425 12550 3425
-Wire Wire Line
-	12550 3425 12550 3050
-$Comp
-L rdimm-breakout:C_100n_0402_6V3-antmicroCapacitors0402-rdimm-breakout C101
-U 1 1 5FE75452
-P 14550 2875
-AR Path="/5FE75452" Ref="C101"  Part="1" 
-AR Path="/60225B0C/5FE75452" Ref="C101"  Part="1" 
-F 0 "C101" H 14665 2920 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 14550 2725 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0402-cap" H 14750 3075 60  0001 L CNN
-F 3 "" H 14550 2875 50  0001 C CNN
-F 4 "Walsin" H 14750 3275 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 14750 3175 60  0001 L CNN "MPN"
-F 6 "100n" H 14665 2822 50  0000 L CNN "Val"
-	1    14550 2875
-	1    0    0    -1  
-$EndComp
-$Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR023
-U 1 1 5FE7633A
-P 14550 3025
-F 0 "#PWR023" H 14550 2775 50  0001 C CNN
-F 1 "GND" H 14555 2852 50  0000 C CNN
-F 2 "" H 14550 3025 50  0001 C CNN
-F 3 "" H 14550 3025 50  0001 C CNN
-	1    14550 3025
-	1    0    0    -1  
-$EndComp
-Text GLabel 14550 2725 1    50   Input ~ 0
-VCC5V0_INT
-Text GLabel 12525 3525 0    50   Input ~ 0
-SYS_ON
-Wire Wire Line
-	12525 3525 13000 3525
-$Comp
-L rdimm-breakout:LM3881MME_NOPB-rdimm-breakout U10
-U 1 1 5FE68F88
-P 13400 3525
-F 0 "U10" H 13400 4018 60  0000 C CNN
-F 1 "LM3881MME_NOPB" H 13150 3175 60  0001 L CNN
-F 2 "rdimm-breakout-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 13600 3725 60  0001 L CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lm3881.pdf?ts=1607507933694&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fsequencers%252Fproducts.html" H 13600 3825 60  0001 L CNN
-F 4 "Texas Instruments" H 13400 3912 60  0000 C CNN "Manufacturer"
-F 5 "LM3881MME/NOPB" H 13400 3806 60  0000 C CNN "MPN"
-	1    13400 3525
-	1    0    0    -1  
-$EndComp
-$Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR022
-U 1 1 5FE96A8E
-P 13900 4075
-F 0 "#PWR022" H 13900 3825 50  0001 C CNN
-F 1 "GND" H 13905 3902 50  0000 C CNN
-F 2 "" H 13900 4075 50  0001 C CNN
-F 3 "" H 13900 4075 50  0001 C CNN
-	1    13900 4075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13800 3725 13900 3725
-Wire Wire Line
-	13900 3725 13900 4075
-Wire Wire Line
-	13800 3425 13900 3425
-Text Label 14400 3425 0    50   ~ 0
-VCC_INT_EN
-Wire Wire Line
-	13800 3525 14075 3525
-Text Label 14400 3525 0    50   ~ 0
-VCC_AUX_EN
-Text Label 14400 3625 0    50   ~ 0
-VCC_IO_EN
-$Comp
-L rdimm-breakout:R_0R_0402-rdimm-breakout R55
-U 1 1 5FEBD15D
-P 12800 3925
-F 0 "R55" V 12755 3995 60  0000 L CNN
-F 1 "R_0R_0402" H 12800 3775 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0402-res" H 13000 4125 60  0001 L CNN
-F 3 "" H 12800 3925 50  0001 C CNN
-F 4 "PANASONIC" H 13000 4325 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 13000 4225 60  0001 L CNN "MPN"
-F 6 "0R" V 12853 3995 50  0000 L CNN "Val"
-	1    12800 3925
-	0    1    1    0   
-$EndComp
-$Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR021
-U 1 1 5FEBD76A
-P 12800 4075
-F 0 "#PWR021" H 12800 3825 50  0001 C CNN
-F 1 "GND" H 12805 3902 50  0000 C CNN
-F 2 "" H 12800 4075 50  0001 C CNN
-F 3 "" H 12800 4075 50  0001 C CNN
-	1    12800 4075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13000 3725 12800 3725
-Wire Wire Line
-	12800 3725 12800 3775
 Wire Wire Line
 	2225 6150 2650 6150
-Text Notes 13750 4750 0    47   ~ 0
-STEP1 - VCCINT   (1.0V) for FPGA\nSTEP2 - VCCAUX (1.8V, 2.5V, 1.2V) for FPGA and DDR\nSTEP3 - VCCIO  (3.3V, 1.2V,  0.6V) for FPGA, PHY and DDR
-$Comp
-L rdimm-breakout:C_10n_0603-rdimm-breakout C100
-U 1 1 5FEE4E91
-P 12450 3875
-F 0 "C100" H 12425 3775 60  0000 R CNN
-F 1 "C_10n_0603" H 12450 3725 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0603-cap" H 12650 4075 60  0001 L CNN
-F 3 "" H 12450 3875 50  0001 C CNN
-F 4 "AVX" H 12650 4275 60  0001 L CNN "Manufacturer"
-F 5 "06031C103JAT2A" H 12650 4175 60  0001 L CNN "MPN"
-F 6 "10n" H 12425 3975 50  0000 R CNN "Val"
-	1    12450 3875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13000 3625 12450 3625
-Wire Wire Line
-	12450 3625 12450 3725
-$Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR020
-U 1 1 5FEEBF8B
-P 12450 4075
-F 0 "#PWR020" H 12450 3825 50  0001 C CNN
-F 1 "GND" H 12455 3902 50  0000 C CNN
-F 2 "" H 12450 4075 50  0001 C CNN
-F 3 "" H 12450 4075 50  0001 C CNN
-	1    12450 4075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12450 4025 12450 4075
-$Comp
-L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP8
-U 1 1 5FF04F72
-P 14950 3625
-F 0 "TP8" V 14925 3525 50  0000 C CNN
-F 1 "TP_SMD1MM" H 14950 3525 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 15150 3825 60  0001 L CNN
-F 3 "" H 15150 3925 60  0001 L CNN
-	1    14950 3625
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP7
-U 1 1 5FF061AA
-P 14950 3525
-F 0 "TP7" V 14925 3425 50  0000 C CNN
-F 1 "TP_SMD1MM" H 14950 3425 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 15150 3725 60  0001 L CNN
-F 3 "" H 15150 3825 60  0001 L CNN
-	1    14950 3525
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP6
-U 1 1 5FF0650C
-P 14950 3425
-F 0 "TP6" V 14925 3325 50  0000 C CNN
-F 1 "TP_SMD1MM" H 14950 3325 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 15150 3625 60  0001 L CNN
-F 3 "" H 15150 3725 60  0001 L CNN
-	1    14950 3425
-	0    -1   -1   0   
-$EndComp
-Connection ~ 2200 1875
-Wire Wire Line
-	2525 2625 3100 2625
+Connection ~ 1650 1875
 Text Notes 9900 4875 0    79   ~ 16
 Power switch
 Text Notes 8650 2575 0    79   ~ 16
@@ -1479,19 +1295,6 @@ F 3 "" H 10850 3575 50  0001 C CNN
 	1    10850 3575
 	1    0    0    -1  
 $EndComp
-$Comp
-L rdimm-breakout:EG1218-rdimm-breakout S1
-U 1 1 602873C2
-P 10625 5525
-F 0 "S1" H 10625 5806 50  0000 C CNN
-F 1 "EG1218" H 10625 5715 50  0000 C CNN
-F 2 "rdimm-breakout-footprints:Switch_Slide_11.6x4mm_EG1218" H 10825 5725 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 10825 5825 60  0001 L CNN
-F 4 "EG1218" H 10825 6025 60  0001 L CNN "MPN"
-F 5 "E-Switch" H 10825 6625 60  0001 L CNN "Manufacturer"
-	1    10625 5525
-	1    0    0    -1  
-$EndComp
 Text Label 2250 6150 0    50   ~ 0
 SYS_EN
 Text Label 9950 5525 0    50   ~ 0
@@ -1570,81 +1373,6 @@ F 5 "PDS760-13" H 8550 5450 50  0000 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	8225 5350 8225 5450
-$Comp
-L rdimm-breakout:R_10k_0402-rdimm-breakout R86
-U 1 1 605A4625
-P 13900 3025
-F 0 "R86" V 13750 3025 60  0000 L CNN
-F 1 "R_10k_0402" H 13900 2875 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0402-res" H 14100 3225 60  0001 L CNN
-F 3 "" H 13900 3025 50  0001 C CNN
-F 4 "VISHAY" H 14100 3425 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 14100 3325 60  0001 L CNN "MPN"
-F 6 "10k" V 14050 3025 50  0000 L CNN "Val"
-	1    13900 3025
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13900 3175 13900 3425
-Connection ~ 13900 3425
-Wire Wire Line
-	13900 3425 14850 3425
-$Comp
-L rdimm-breakout:R_10k_0402-rdimm-breakout R87
-U 1 1 605B87F5
-P 14075 3025
-F 0 "R87" V 13925 3025 60  0000 L CNN
-F 1 "R_10k_0402" H 14075 2875 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0402-res" H 14275 3225 60  0001 L CNN
-F 3 "" H 14075 3025 50  0001 C CNN
-F 4 "VISHAY" H 14275 3425 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 14275 3325 60  0001 L CNN "MPN"
-F 6 "10k" V 14225 3025 50  0000 L CNN "Val"
-	1    14075 3025
-	0    1    1    0   
-$EndComp
-$Comp
-L rdimm-breakout:R_10k_0402-rdimm-breakout R88
-U 1 1 605B94B6
-P 14250 3025
-F 0 "R88" V 14100 3025 60  0000 L CNN
-F 1 "R_10k_0402" H 14250 2875 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0402-res" H 14450 3225 60  0001 L CNN
-F 3 "" H 14250 3025 50  0001 C CNN
-F 4 "VISHAY" H 14450 3425 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 14450 3325 60  0001 L CNN "MPN"
-F 6 "10k" V 14400 3025 50  0000 L CNN "Val"
-	1    14250 3025
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14075 3175 14075 3525
-Connection ~ 14075 3525
-Wire Wire Line
-	14075 3525 14850 3525
-Wire Wire Line
-	14250 3175 14250 3625
-Wire Wire Line
-	13800 3625 14250 3625
-Connection ~ 14250 3625
-Wire Wire Line
-	14250 3625 14850 3625
-Wire Wire Line
-	14250 2875 14250 2750
-Wire Wire Line
-	14250 2750 14075 2750
-Wire Wire Line
-	13900 2750 13900 2875
-Wire Wire Line
-	14075 2875 14075 2750
-Connection ~ 14075 2750
-Wire Wire Line
-	14075 2750 13900 2750
-Connection ~ 13900 2750
-Wire Wire Line
-	13800 2750 13900 2750
-Text GLabel 13800 2750 0    50   Input ~ 0
-VCC5V0_INT
 Wire Notes Line
 	475  8300 16075 8300
 Wire Notes Line
@@ -1766,52 +1494,52 @@ Text GLabel 8325 3250 1    50   Input ~ 0
 VDDQ
 Text GLabel 8800 3250 1    50   Input ~ 0
 VDDQ
-Text GLabel 15525 6100 2    50   Input ~ 0
+Text GLabel 15300 1625 2    50   Input ~ 0
 VTT
-Text GLabel 15500 5900 2    50   Input ~ 0
+Text GLabel 15275 1425 2    50   Input ~ 0
 VDDQ
-Text GLabel 15525 5700 2    50   Input ~ 0
+Text GLabel 15300 1225 2    50   Input ~ 0
 VPP
 $Comp
 L rdimm-breakout:R_0R_0603-rdimm-breakout R161
 U 1 1 6177CC40
-P 15125 6100
-F 0 "R161" H 14925 6150 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5950 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0603-res" H 15325 6300 60  0001 L CNN
-F 3 "" H 15125 6100 50  0001 C CNN
-F 4 "BOURNS" H 15325 6500 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 6400 60  0001 L CNN "MPN"
-F 6 "0R" H 15200 6000 50  0000 C CNN "Val"
-	1    15125 6100
+P 14900 1625
+F 0 "R161" H 14700 1675 60  0000 C CNN
+F 1 "R_0R_0603" H 14900 1475 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-res" H 15100 1825 60  0001 L CNN
+F 3 "" H 14900 1625 50  0001 C CNN
+F 4 "BOURNS" H 15100 2025 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 15100 1925 60  0001 L CNN "MPN"
+F 6 "0R" H 14975 1525 50  0000 C CNN "Val"
+	1    14900 1625
 	1    0    0    -1  
 $EndComp
 $Comp
 L rdimm-breakout:R_0R_0603-rdimm-breakout R159
 U 1 1 6177CC49
-P 15125 5700
-F 0 "R159" H 14925 5750 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5550 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0603-res" H 15325 5900 60  0001 L CNN
-F 3 "" H 15125 5700 50  0001 C CNN
-F 4 "BOURNS" H 15325 6100 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 6000 60  0001 L CNN "MPN"
-F 6 "0R" H 15300 5450 50  0000 C CNN "Val"
-	1    15125 5700
+P 14900 1225
+F 0 "R159" H 14700 1275 60  0000 C CNN
+F 1 "R_0R_0603" H 14900 1075 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0603-res" H 15100 1425 60  0001 L CNN
+F 3 "" H 14900 1225 50  0001 C CNN
+F 4 "BOURNS" H 15100 1625 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 15100 1525 60  0001 L CNN "MPN"
+F 6 "0R" H 15075 975 50  0000 C CNN "Val"
+	1    14900 1225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15275 5900 15500 5900
+	15050 1425 15275 1425
 Wire Wire Line
-	15275 5700 15525 5700
+	15050 1225 15300 1225
 Wire Wire Line
-	15275 6100 15525 6100
+	15050 1625 15300 1625
 Wire Wire Line
-	14825 5700 14975 5700
+	14600 1225 14750 1225
 Wire Wire Line
-	14975 5900 14825 5900
+	14750 1425 14600 1425
 Wire Wire Line
-	14975 6100 14825 6100
+	14750 1625 14600 1625
 Wire Wire Line
 	4925 1875 6100 1875
 Text GLabel 9525 1525 1    50   Input ~ 0
@@ -1832,23 +1560,21 @@ Text GLabel 11250 1525 1    50   Input ~ 0
 VDD1V2
 Text GLabel 11550 1525 1    50   Input ~ 0
 VDD1V2
-Text GLabel 14825 6100 0    50   Input ~ 0
+Text GLabel 14600 1625 0    50   Input ~ 0
 VCC0V6
-Text GLabel 14825 5900 0    50   Input ~ 0
+Text GLabel 14600 1425 0    50   Input ~ 0
 VDD1V2
-Text GLabel 14825 5700 0    50   Input ~ 0
+Text GLabel 14600 1225 0    50   Input ~ 0
 VCC2V5
-Wire Wire Line
-	1100 2650 2300 2650
 Wire Wire Line
 	2900 2175 3100 2175
-Text GLabel 12925 6125 1    50   Input ~ 0
+Text GLabel 12700 1650 1    50   Input ~ 0
 VCC0V6
-Text GLabel 12500 6125 1    50   Input ~ 0
+Text GLabel 12275 1650 1    50   Input ~ 0
 VCC2V5
-Text GLabel 12700 6125 1    50   Input ~ 0
+Text GLabel 12475 1650 1    50   Input ~ 0
 VDD1V2
-Text Notes 15025 5525 0    39   ~ 0
+Text Notes 14800 1050 0    39   ~ 0
 Output
 Text Label 2800 2325 0    50   ~ 0
 VLDOIN
@@ -1856,40 +1582,40 @@ Text Label 6675 1150 3    50   ~ 0
 VLDOIN
 Wire Wire Line
 	6675 1500 6675 1150
-Text GLabel 14775 7225 0    50   Input ~ 0
+Text GLabel 14550 2750 0    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	14775 7225 14975 7225
+	14550 2750 14750 2750
 Wire Wire Line
-	15275 7225 15450 7225
-Text GLabel 14775 7000 0    50   Input ~ 0
+	15050 2750 15225 2750
+Text GLabel 14550 2525 0    50   Input ~ 0
 VCC5V0
 Wire Wire Line
-	14775 7000 14975 7000
-Text GLabel 15450 7000 2    50   Input ~ 0
+	14550 2525 14750 2525
+Text GLabel 15225 2525 2    50   Input ~ 0
 5V0_SYS
 Wire Wire Line
-	15275 7000 15450 7000
+	15050 2525 15225 2525
 Text GLabel 5000 5675 1    50   Input ~ 0
 VCC5V0
 Wire Wire Line
 	5000 6350 5000 5675
-Text GLabel 13100 6125 1    50   Input ~ 0
+Text GLabel 12875 1650 1    50   Input ~ 0
 VCC5V0
-Text GLabel 13300 6125 1    50   Input ~ 0
+Text GLabel 13075 1650 1    50   Input ~ 0
 VIN
 $Comp
 L rdimm-breakout:TP_SMD1MM-rdimm-breakout 12V1
 U 1 1 62506200
-P 13300 6225
-F 0 "12V1" V 13205 6272 50  0000 C CNN
-F 1 "TP_SMD1MM" H 13300 6125 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 13500 6425 60  0001 L CNN
-F 3 "" H 13500 6525 60  0001 L CNN
-	1    13300 6225
+P 13075 1750
+F 0 "12V1" V 12980 1797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13075 1650 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 13275 1950 60  0001 L CNN
+F 3 "" H 13275 2050 60  0001 L CNN
+	1    13075 1750
 	1    0    0    -1  
 $EndComp
-Text Notes 12575 5675 0    39   ~ 0
+Text Notes 12350 1200 0    39   ~ 0
 DDR4
 Text GLabel 2500 5700 1    50   Input ~ 0
 VIN
@@ -1916,53 +1642,145 @@ Text GLabel 7300 1500 1    50   Input ~ 0
 5V0_SYS
 Text GLabel 7550 1500 1    50   Input ~ 0
 5V0_SYS
-Text GLabel 1100 2650 0    50   Input ~ 0
+Text GLabel 2100 2325 0    50   Input ~ 0
 VDD1V2
-Text Notes 14650 5275 0    79   ~ 16
+Text Notes 14425 800  0    79   ~ 16
 Shunt resistors
 Wire Wire Line
-	1050 1875 2200 1875
+	1050 1875 1650 1875
 Text GLabel 7075 1500 1    50   Input ~ 0
 5V0_SYS
 $Comp
 L rdimm-breakout:1206L450SLWR-rdimm-breakout F1
 U 1 1 61277451
-P 15125 5900
-F 0 "F1" H 14975 5950 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 5975 50  0000 C CNN
-F 2 "rdimm-breakout-footprints:1206-res" H 15175 5675 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5750 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 5600 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 5525 50  0001 C CNN "Manufacturer"
-	1    15125 5900
+P 14900 1425
+F 0 "F1" H 14750 1475 50  0000 C CNN
+F 1 "1206L450SLWR" H 15300 1500 50  0000 C CNN
+F 2 "rdimm-breakout-footprints:1206-res" H 14950 1200 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 14900 1275 50  0001 C CNN
+F 4 "1206L450SLWR" H 14925 1125 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 14950 1050 50  0001 C CNN "Manufacturer"
+	1    14900 1425
 	1    0    0    -1  
 $EndComp
 $Comp
 L rdimm-breakout:1206L450SLWR-rdimm-breakout F2
 U 1 1 61A05999
-P 15125 7000
-F 0 "F2" H 14975 7050 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 7075 50  0000 C CNN
-F 2 "rdimm-breakout-footprints:1206-res" H 15175 6775 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6850 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 6700 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 6625 50  0001 C CNN "Manufacturer"
-	1    15125 7000
+P 14900 2525
+F 0 "F2" H 14750 2575 50  0000 C CNN
+F 1 "1206L450SLWR" H 15300 2600 50  0000 C CNN
+F 2 "rdimm-breakout-footprints:1206-res" H 14950 2300 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 14900 2375 50  0001 C CNN
+F 4 "1206L450SLWR" H 14925 2225 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 14950 2150 50  0001 C CNN "Manufacturer"
+	1    14900 2525
 	1    0    0    -1  
 $EndComp
 $Comp
 L rdimm-breakout:1206L450SLWR-rdimm-breakout F3
 U 1 1 61A082F9
-P 15125 7225
-F 0 "F3" H 14975 7275 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 7300 50  0000 C CNN
-F 2 "rdimm-breakout-footprints:1206-res" H 15175 7000 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7075 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 6925 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 6850 50  0001 C CNN "Manufacturer"
-	1    15125 7225
+P 14900 2750
+F 0 "F3" H 14750 2800 50  0000 C CNN
+F 1 "1206L450SLWR" H 15300 2825 50  0000 C CNN
+F 2 "rdimm-breakout-footprints:1206-res" H 14950 2525 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 14900 2600 50  0001 C CNN
+F 4 "1206L450SLWR" H 14925 2450 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 14950 2375 50  0001 C CNN "Manufacturer"
+	1    14900 2750
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	14225 5000 14225 9950
+	14000 525  14000 5000
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP7
+U 1 1 5FF061AA
+P 2025 2625
+F 0 "TP7" V 2000 2525 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2025 2525 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 2225 2825 60  0001 L CNN
+F 3 "" H 2225 2925 60  0001 L CNN
+	1    2025 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP8
+U 1 1 5FF04F72
+P 2025 2775
+F 0 "TP8" V 2000 2675 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2025 2675 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 2225 2975 60  0001 L CNN
+F 3 "" H 2225 3075 60  0001 L CNN
+	1    2025 2775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 1875 2875 1875
+$Comp
+L rdimm-breakout:R_10k_0402-rdimm-breakout R86
+U 1 1 605A4625
+P 2275 1225
+F 0 "R86" V 2125 1225 60  0000 L CNN
+F 1 "R_10k_0402" H 2275 1075 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 2475 1425 60  0001 L CNN
+F 3 "" H 2275 1225 50  0001 C CNN
+F 4 "VISHAY" H 2475 1625 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2475 1525 60  0001 L CNN "MPN"
+F 6 "10k" V 2425 1225 50  0000 L CNN "Val"
+	1    2275 1225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2275 1375 2275 2625
+$Comp
+L rdimm-breakout:R_10k_0402-rdimm-breakout R87
+U 1 1 605B87F5
+P 2450 1225
+F 0 "R87" V 2300 1225 60  0000 L CNN
+F 1 "R_10k_0402" H 2450 1075 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-res" H 2650 1425 60  0001 L CNN
+F 3 "" H 2450 1225 50  0001 C CNN
+F 4 "VISHAY" H 2650 1625 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2650 1525 60  0001 L CNN "MPN"
+F 6 "10k" V 2600 1225 50  0000 L CNN "Val"
+	1    2450 1225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1375 2450 2775
+Wire Wire Line
+	2275 950  2275 1075
+Connection ~ 2275 950 
+Wire Wire Line
+	2450 950  2275 950 
+Wire Wire Line
+	2175 950  2275 950 
+Wire Wire Line
+	2450 1075 2450 950 
+Text GLabel 2175 950  0    50   Input ~ 0
+VCC5V0_INT
+Wire Wire Line
+	2100 2325 3100 2325
+Wire Wire Line
+	2275 2625 3100 2625
+Wire Wire Line
+	2450 2775 3100 2775
+Connection ~ 2275 2625
+Wire Wire Line
+	2125 2625 2275 2625
+Wire Wire Line
+	2125 2775 2450 2775
+Connection ~ 2450 2775
+$Comp
+L rdimm-breakout:MSS3-V-T_R S3
+U 1 1 61B6AB4F
+P 10625 5525
+F 0 "S3" H 10625 5806 50  0000 C CNN
+F 1 "MSS3-V-T_R" H 10625 5715 50  0000 C CNN
+F 2 "rdimm-breakout-footprints:Switch_Slide_MSS3" H 10825 5725 50  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" H 10825 5825 60  0001 L CNN
+F 4 "MSS3-V-T/R" H 10825 6025 60  0001 L CNN "MPN"
+F 5 "Diptronics" H 10825 6145 60  0001 L CNN "Manufacturer"
+	1    10625 5525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
