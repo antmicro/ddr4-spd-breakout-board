@@ -16,7 +16,7 @@ $EndDescr
 $Sheet
 S 6975 6650 1575 800 
 U 60225B0C
-F0 "Supply" 79
+F0 "FTDI" 79
 F1 "supply.sch" 79
 $EndSheet
 Text Notes 6500 2150 0    157  ~ 31
