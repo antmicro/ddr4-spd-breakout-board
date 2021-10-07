@@ -247,14 +247,10 @@ Wire Wire Line
 	7275 5575 7275 5400
 Wire Wire Line
 	7550 5775 7725 5775
-Text GLabel 7150 5475 0    50   Input ~ 0
-VDDQ
 Wire Wire Line
 	7725 5475 7150 5475
 Wire Wire Line
 	8425 5475 9025 5475
-Text GLabel 9025 5475 2    50   Input ~ 0
-VDDSPD
 Text GLabel 9025 5675 2    50   Input ~ 0
 SDA_2V5
 Text GLabel 9025 5575 2    50   Input ~ 0
@@ -351,28 +347,15 @@ V_AUX
 Wire Wire Line
 	11400 5300 11575 5300
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0134
 U 1 1 623664C2
 P 11400 5300
-F 0 "#PWR?" H 11400 5050 50  0001 C CNN
+F 0 "#PWR0134" H 11400 5050 50  0001 C CNN
 F 1 "GND" H 11405 5127 50  0000 C CNN
 F 2 "" H 11400 5300 50  0001 C CNN
 F 3 "" H 11400 5300 50  0001 C CNN
 	1    11400 5300
 	-1   0    0    -1  
-$EndComp
-$Comp
-L rdimm-breakout:825437-4 J?
-U 1 1 62367F31
-P 11725 5000
-F 0 "J?" V 11824 4922 50  0000 R CNN
-F 1 "825437-4" V 11915 4922 50  0000 R CNN
-F 2 "rdimm-breakout-footprints:TE_825437-4" H 11925 5300 60  0001 L CNN
-F 3 "https://www.te.com/usa-en/product-825437-4.datasheet.pdf" H 11925 5400 60  0001 L CNN
-F 4 "825437-4" H 11925 5500 60  0001 L CNN "MPN"
-F 5 "TE Connectivity" H 11925 5600 60  0001 L CNN "Manufacturer"
-	1    11725 5000
-	0    -1   1    0   
 $EndComp
 Text GLabel 5725 5150 1    50   Input ~ 0
 VCC2V5
@@ -387,10 +370,10 @@ Wire Wire Line
 Text GLabel 10925 5850 0    50   Input ~ 0
 V_AUX
 $Comp
-L rdimm-breakout:R_0R_0603 R?
+L rdimm-breakout:R_0R_0603 R12
 U 1 1 623F859E
 P 11225 5850
-F 0 "R?" H 11275 5775 60  0000 C CNN
+F 0 "R12" H 11275 5750 60  0000 C CNN
 F 1 "R_0R_0603" H 11225 5700 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0603-res" H 11425 6050 60  0001 L CNN
 F 3 "" H 11225 5850 50  0001 C CNN
@@ -401,10 +384,10 @@ F 6 "0R" H 11225 5965 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L rdimm-breakout:R_10k_0402 R?
+L rdimm-breakout:R_10k_0402 R8
 U 1 1 62412FCB
 P 7275 5250
-F 0 "R?" V 7125 5250 60  0000 L CNN
+F 0 "R8" V 7125 5250 60  0000 L CNN
 F 1 "R_10k_0402" H 7275 5100 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-res" H 7475 5450 60  0001 L CNN
 F 3 "" H 7275 5250 50  0001 C CNN
@@ -415,10 +398,10 @@ F 6 "10k" V 7425 5250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L rdimm-breakout:R_10k_0402 R?
+L rdimm-breakout:R_10k_0402 R9
 U 1 1 62414E08
 P 7475 5250
-F 0 "R?" V 7325 5250 60  0000 L CNN
+F 0 "R9" V 7325 5250 60  0000 L CNN
 F 1 "R_10k_0402" H 7475 5100 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-res" H 7675 5450 60  0001 L CNN
 F 3 "" H 7475 5250 50  0001 C CNN
@@ -429,10 +412,10 @@ F 6 "10k" V 7625 5250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L rdimm-breakout:R_10k_0402 R?
+L rdimm-breakout:R_10k_0402 R10
 U 1 1 62415065
 P 8625 5275
-F 0 "R?" V 8475 5275 60  0000 L CNN
+F 0 "R10" V 8475 5275 60  0000 L CNN
 F 1 "R_10k_0402" H 8625 5125 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-res" H 8825 5475 60  0001 L CNN
 F 3 "" H 8625 5275 50  0001 C CNN
@@ -443,10 +426,10 @@ F 6 "10k" V 8775 5275 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L rdimm-breakout:R_10k_0402 R?
+L rdimm-breakout:R_10k_0402 R11
 U 1 1 62415366
 P 8825 5275
-F 0 "R?" V 8675 5275 60  0000 L CNN
+F 0 "R11" V 8675 5275 60  0000 L CNN
 F 1 "R_10k_0402" H 8825 5125 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-res" H 9025 5475 60  0001 L CNN
 F 3 "" H 8825 5275 50  0001 C CNN
@@ -455,5 +438,84 @@ F 5 "CRCW040210K0FKEDHP" H 9025 5575 60  0001 L CNN "MPN"
 F 6 "10k" V 8975 5275 50  0000 L CNN "Val"
 	1    8825 5275
 	0    1    1    0   
+$EndComp
+Text GLabel 7150 5475 0    50   Input ~ 0
+VCC3V3
+Text GLabel 9025 5475 2    50   Input ~ 0
+VCC2V5
+$Comp
+L rdimm-breakout:C_100n_0402 C?
+U 1 1 6249B5B0
+P 6500 5375
+AR Path="/60225B0C/6249B5B0" Ref="C?"  Part="1" 
+AR Path="/61B4860C/6249B5B0" Ref="C22"  Part="1" 
+F 0 "C22" H 6525 5475 60  0000 L CNN
+F 1 "C_100n_0402" H 6500 5225 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 6700 5575 60  0001 L CNN
+F 3 "" H 6500 5375 50  0001 C CNN
+F 4 "Walsin" H 6700 5775 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6700 5675 60  0001 L CNN "MPN"
+F 6 "100n" H 6525 5275 50  0000 L CNN "Val"
+	1    6500 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR?
+U 1 1 6249B5B6
+P 6500 5525
+AR Path="/60225B0C/6249B5B6" Ref="#PWR?"  Part="1" 
+AR Path="/61B4860C/6249B5B6" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 6500 5275 50  0001 C CNN
+F 1 "GND" H 6505 5352 50  0000 C CNN
+F 2 "" H 6500 5525 50  0001 C CNN
+F 3 "" H 6500 5525 50  0001 C CNN
+	1    6500 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:C_100n_0402 C?
+U 1 1 6249F036
+P 9725 5450
+AR Path="/60225B0C/6249F036" Ref="C?"  Part="1" 
+AR Path="/61B4860C/6249F036" Ref="C23"  Part="1" 
+F 0 "C23" H 9750 5550 60  0000 L CNN
+F 1 "C_100n_0402" H 9725 5300 60  0001 C CNN
+F 2 "rdimm-breakout-footprints:0402-cap" H 9925 5650 60  0001 L CNN
+F 3 "" H 9725 5450 50  0001 C CNN
+F 4 "Walsin" H 9925 5850 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9925 5750 60  0001 L CNN "MPN"
+F 6 "100n" H 9750 5350 50  0000 L CNN "Val"
+	1    9725 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L rdimm-breakout:GND-rdimm-breakout #PWR?
+U 1 1 6249F03C
+P 9725 5600
+AR Path="/60225B0C/6249F03C" Ref="#PWR?"  Part="1" 
+AR Path="/61B4860C/6249F03C" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 9725 5350 50  0001 C CNN
+F 1 "GND" H 9730 5427 50  0000 C CNN
+F 2 "" H 9725 5600 50  0001 C CNN
+F 3 "" H 9725 5600 50  0001 C CNN
+	1    9725 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 5225 1    50   Input ~ 0
+VCC3V3
+Text GLabel 9725 5300 1    50   Input ~ 0
+VCC2V5
+$Comp
+L rdimm-breakout:0022232041 J4
+U 1 1 624BF565
+P 11675 5000
+F 0 "J4" V 11774 4872 50  0000 R CNN
+F 1 "0022232041" V 11865 4872 50  0000 R CNN
+F 2 "rdimm-breakout-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 11875 5200 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 11875 5300 60  0001 L CNN
+F 4 "0022232041" H 11875 5500 60  0001 L CNN "MPN"
+F 5 "Molex" H 11875 6100 60  0001 L CNN "Manufacturer"
+	1    11675 5000
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC

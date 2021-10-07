@@ -75,10 +75,10 @@ F 5 "Diptronics" H 3475 11145 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:WE_629105150521 J?
+L rdimm-breakout:WE_629105150521 J1
 U 1 1 616B2762
 P 3350 2425
-F 0 "J?" H 3136 2449 60  0000 R CNN
+F 0 "J1" H 3136 2449 60  0000 R CNN
 F 1 "WE_629105150521" H 3136 2343 60  0000 R CNN
 F 2 "rdimm-breakout-footprints:USB_Micro_B_Female_629105150521" H 3550 2625 60  0001 L CNN
 F 3 "" H 3550 2725 60  0001 L CNN
@@ -88,10 +88,10 @@ F 5 "Wurth_Elektronik" H 3550 3525 60  0001 L CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:BLM18AG601SN1D FB?
+L rdimm-breakout:BLM18AG601SN1D FB1
 U 1 1 616B5F80
 P 3450 3400
-F 0 "FB?" V 3397 3528 60  0000 L CNN
+F 0 "FB1" V 3397 3528 60  0000 L CNN
 F 1 "BLM18AG601SN1D" V 3503 3528 60  0000 L CNN
 F 2 "rdimm-breakout-footprints:0603" H 3650 3600 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 3650 3700 60  0001 L CNN
@@ -103,10 +103,10 @@ $EndComp
 Wire Wire Line
 	3450 3025 3450 3200
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0101
 U 1 1 616B7A22
 P 3450 3800
-F 0 "#PWR?" H 3450 3550 50  0001 C CNN
+F 0 "#PWR0101" H 3450 3550 50  0001 C CNN
 F 1 "GND" H 3455 3627 50  0000 C CNN
 F 2 "" H 3450 3800 50  0001 C CNN
 F 3 "" H 3450 3800 50  0001 C CNN
@@ -116,10 +116,10 @@ $EndComp
 Wire Wire Line
 	3450 3800 3450 3600
 $Comp
-L rdimm-breakout:PESD5V0S2BQA D?
+L rdimm-breakout:PESD5V0S2BQA D1
 U 1 1 6170ED84
 P 1900 2750
-F 0 "D?" V 1902 2880 60  0000 L CNN
+F 0 "D1" V 1902 2880 60  0000 L CNN
 F 1 "PESD5V0S2BQA" V 1600 2150 60  0001 L BNN
 F 2 "rdimm-breakout-footprints:TPD2E009DRTR" H 1950 2950 60  0001 C CNN
 F 3 "" H 1900 2750 60  0001 C CNN
@@ -137,10 +137,10 @@ Wire Wire Line
 Wire Wire Line
 	3050 2425 1800 2425
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0102
 U 1 1 6171EC47
 P 2875 3800
-F 0 "#PWR?" H 2875 3550 50  0001 C CNN
+F 0 "#PWR0102" H 2875 3550 50  0001 C CNN
 F 1 "GND" H 2880 3627 50  0000 C CNN
 F 2 "" H 2875 3800 50  0001 C CNN
 F 3 "" H 2875 3800 50  0001 C CNN
@@ -164,10 +164,10 @@ Wire Wire Line
 Wire Wire Line
 	1425 2500 1425 3800
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0103
 U 1 1 61728184
 P 1425 3800
-F 0 "#PWR?" H 1425 3550 50  0001 C CNN
+F 0 "#PWR0103" H 1425 3550 50  0001 C CNN
 F 1 "GND" H 1430 3627 50  0000 C CNN
 F 2 "" H 1425 3800 50  0001 C CNN
 F 3 "" H 1425 3800 50  0001 C CNN
@@ -181,10 +181,10 @@ VBUS
 Text GLabel 3550 1475 0    50   Input ~ 0
 VBUS
 $Comp
-L rdimm-breakout:R_0R_0603 R?
+L rdimm-breakout:R_0R_0603 R1
 U 1 1 61741809
 P 3925 1475
-F 0 "R?" H 3925 1688 60  0000 C CNN
+F 0 "R1" H 3925 1688 60  0000 C CNN
 F 1 "R_0R_0603" H 3925 1325 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0603-res" H 4125 1675 60  0001 L CNN
 F 3 "" H 3925 1475 50  0001 C CNN
@@ -231,10 +231,10 @@ FTDI
 Text Notes 1800 1325 0    118  ~ 24
 USB connector
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0104
 U 1 1 618D40D0
 P 3625 6250
-F 0 "#PWR?" H 3625 6000 50  0001 C CNN
+F 0 "#PWR0104" H 3625 6000 50  0001 C CNN
 F 1 "GND" H 3630 6077 50  0000 C CNN
 F 2 "" H 3625 6250 50  0001 C CNN
 F 3 "" H 3625 6250 50  0001 C CNN
@@ -242,10 +242,10 @@ F 3 "" H 3625 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0105
 U 1 1 618D7D89
 P 3800 6250
-F 0 "#PWR?" H 3800 6000 50  0001 C CNN
+F 0 "#PWR0105" H 3800 6000 50  0001 C CNN
 F 1 "GND" H 3805 6077 50  0000 C CNN
 F 2 "" H 3800 6250 50  0001 C CNN
 F 3 "" H 3800 6250 50  0001 C CNN
@@ -253,10 +253,10 @@ F 3 "" H 3800 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0106
 U 1 1 618D82A6
 P 2000 6250
-F 0 "#PWR?" H 2000 6000 50  0001 C CNN
+F 0 "#PWR0106" H 2000 6000 50  0001 C CNN
 F 1 "GND" H 2005 6077 50  0000 C CNN
 F 2 "" H 2000 6250 50  0001 C CNN
 F 3 "" H 2000 6250 50  0001 C CNN
@@ -264,10 +264,10 @@ F 3 "" H 2000 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_1u_0402 C?
+L rdimm-breakout:C_1u_0402 C4
 U 1 1 618DD241
 P 3800 6100
-F 0 "C?" H 3915 6145 60  0000 L CNN
+F 0 "C4" H 3915 6145 60  0000 L CNN
 F 1 "C_1u_0402" H 3800 5950 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 4000 6300 60  0001 L CNN
 F 3 "" H 3800 6100 50  0001 C CNN
@@ -278,10 +278,10 @@ F 6 "1u" H 3915 6047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_1u_0402 C?
+L rdimm-breakout:C_1u_0402 C1
 U 1 1 618DD668
 P 2000 6100
-F 0 "C?" H 2115 6145 60  0000 L CNN
+F 0 "C1" H 2115 6145 60  0000 L CNN
 F 1 "C_1u_0402" H 2000 5950 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 2200 6300 60  0001 L CNN
 F 3 "" H 2000 6100 50  0001 C CNN
@@ -292,10 +292,10 @@ F 6 "1u" H 2115 6047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:R_12k_0402 R?
+L rdimm-breakout:R_12k_0402 R4
 U 1 1 618FC385
 P 9500 2075
-F 0 "R?" H 9375 2175 60  0000 C CNN
+F 0 "R4" H 9375 2175 60  0000 C CNN
 F 1 "R_12k_0402" H 9500 1925 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-res" H 9700 2275 60  0001 L CNN
 F 3 "" H 9500 2075 50  0001 C CNN
@@ -306,10 +306,10 @@ F 6 "12k" H 9500 2000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0107
 U 1 1 618FCDA9
 P 9350 2075
-F 0 "#PWR?" H 9350 1825 50  0001 C CNN
+F 0 "#PWR0107" H 9350 1825 50  0001 C CNN
 F 1 "GND" H 9355 1902 50  0000 C CNN
 F 2 "" H 9350 2075 50  0001 C CNN
 F 3 "" H 9350 2075 50  0001 C CNN
@@ -318,19 +318,6 @@ F 3 "" H 9350 2075 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9650 2075 10250 2075
-$Comp
-L rdimm-breakout:FT2232HL-REEL U?
-U 1 1 61A59BF8
-P 11250 3975
-F 0 "U?" H 11250 6464 60  0000 C CNN
-F 1 "FT2232HL-REEL" H 11250 6358 60  0000 C CNN
-F 2 "rdimm-breakout-footprints:LQFP-64_10x10mm" V 11300 4200 60  0001 L CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 7525 4000 60  0001 L CNN
-F 4 "FTDI, Future Technology Devices International Ltd" H 7525 4800 60  0001 L CNN "Manufacturer"
-F 5 "FT2232HL-REEL" H 11300 4500 60  0001 L CNN "MPN"
-	1    11250 3975
-	1    0    0    -1  
-$EndComp
 $Bitmap
 Pos 13050 9575
 Scale 0.400000
@@ -2468,10 +2455,10 @@ Text GLabel 8350 1375 1    50   Input ~ 0
 Wire Wire Line
 	8350 1875 10250 1875
 $Comp
-L rdimm-breakout:R_4k7_0402 R?
+L rdimm-breakout:R_4k7_0402 R2
 U 1 1 61BB4255
 P 8350 1525
-F 0 "R?" V 8305 1595 60  0000 L CNN
+F 0 "R2" V 8305 1595 60  0000 L CNN
 F 1 "R_4k7_0402" H 8350 1375 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-res" H 8550 1725 60  0001 L CNN
 F 3 "" H 8350 1525 50  0001 C CNN
@@ -2482,10 +2469,10 @@ F 6 "4k7" V 8403 1595 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L rdimm-breakout:R_10k_0402 R?
+L rdimm-breakout:R_10k_0402 R3
 U 1 1 61BB425E
 P 8350 2125
-F 0 "R?" V 8305 2195 60  0000 L CNN
+F 0 "R3" V 8305 2195 60  0000 L CNN
 F 1 "R_10k_0402" H 8350 1975 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-res" H 8550 2325 60  0001 L CNN
 F 3 "" H 8350 2125 50  0001 C CNN
@@ -2496,10 +2483,10 @@ F 6 "10k" V 8403 2195 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0108
 U 1 1 61BB4264
 P 8350 2275
-F 0 "#PWR?" H 8350 2025 50  0001 C CNN
+F 0 "#PWR0108" H 8350 2025 50  0001 C CNN
 F 1 "GND" H 8355 2102 50  0000 C CNN
 F 2 "" H 8350 2275 50  0001 C CNN
 F 3 "" H 8350 2275 50  0001 C CNN
@@ -2568,10 +2555,10 @@ OSCI
 Text GLabel 8725 4450 2    50   Input ~ 0
 OSCO
 $Comp
-L rdimm-breakout:KX-7_12,MHz Y?
+L rdimm-breakout:KX-7_12,MHz Y1
 U 1 1 61C63A93
 P 8225 4100
-F 0 "Y?" H 8350 4200 31  0000 L CNN
+F 0 "Y1" H 8350 4200 31  0000 L CNN
 F 1 "KX-7_12,MHz" H 8350 4050 31  0000 L CNN
 F 2 "rdimm-breakout-footprints:KX-7" H 10325 4100 50  0001 C CNN
 F 3 "" H 10425 4200 50  0001 C CNN
@@ -2587,10 +2574,10 @@ Wire Wire Line
 Wire Wire Line
 	7925 4450 8725 4450
 $Comp
-L rdimm-breakout:C_27p_0402 C?
+L rdimm-breakout:C_27p_0402 C6
 U 1 1 61CA31D1
 P 7925 4700
-F 0 "C?" H 7950 4800 60  0000 L CNN
+F 0 "C6" H 7950 4800 60  0000 L CNN
 F 1 "C_27p_0402" H 7925 4550 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 8125 4900 60  0001 L CNN
 F 3 "" H 7925 4700 50  0001 C CNN
@@ -2602,10 +2589,10 @@ F 6 "27p" H 7950 4600 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 7925 4450
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0109
 U 1 1 61CAB97A
 P 7925 4850
-F 0 "#PWR?" H 7925 4600 50  0001 C CNN
+F 0 "#PWR0109" H 7925 4600 50  0001 C CNN
 F 1 "GND" H 7930 4677 50  0000 C CNN
 F 2 "" H 7925 4850 50  0001 C CNN
 F 3 "" H 7925 4850 50  0001 C CNN
@@ -2613,10 +2600,10 @@ F 3 "" H 7925 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_27p_0402 C?
+L rdimm-breakout:C_27p_0402 C7
 U 1 1 61CAE328
 P 8450 4700
-F 0 "C?" H 8475 4800 60  0000 L CNN
+F 0 "C7" H 8475 4800 60  0000 L CNN
 F 1 "C_27p_0402" H 8450 4550 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 8650 4900 60  0001 L CNN
 F 3 "" H 8450 4700 50  0001 C CNN
@@ -2627,10 +2614,10 @@ F 6 "27p" H 8475 4600 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0110
 U 1 1 61CAE32F
 P 8450 4850
-F 0 "#PWR?" H 8450 4600 50  0001 C CNN
+F 0 "#PWR0110" H 8450 4600 50  0001 C CNN
 F 1 "GND" H 8455 4677 50  0000 C CNN
 F 2 "" H 8450 4850 50  0001 C CNN
 F 3 "" H 8450 4850 50  0001 C CNN
@@ -2643,10 +2630,10 @@ Connection ~ 8450 4100
 Wire Wire Line
 	8450 4100 8750 4100
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0111
 U 1 1 61CBDE4F
 P 8225 4850
-F 0 "#PWR?" H 8225 4600 50  0001 C CNN
+F 0 "#PWR0111" H 8225 4600 50  0001 C CNN
 F 1 "GND" H 8230 4677 50  0000 C CNN
 F 2 "" H 8225 4850 50  0001 C CNN
 F 3 "" H 8225 4850 50  0001 C CNN
@@ -2658,10 +2645,10 @@ Wire Wire Line
 Wire Wire Line
 	7925 4450 7925 4550
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0112
 U 1 1 61CD9117
 P 8225 3900
-F 0 "#PWR?" H 8225 3650 50  0001 C CNN
+F 0 "#PWR0112" H 8225 3650 50  0001 C CNN
 F 1 "GND" H 8230 3727 50  0000 C CNN
 F 2 "" H 8225 3900 50  0001 C CNN
 F 3 "" H 8225 3900 50  0001 C CNN
@@ -2669,10 +2656,10 @@ F 3 "" H 8225 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rdimm-breakout:BLM18AG601SN1D FB?
+L rdimm-breakout:BLM18AG601SN1D FB2
 U 1 1 61CE72DA
 P 13750 2775
-F 0 "FB?" H 13700 2925 60  0000 C CNN
+F 0 "FB2" H 13700 2925 60  0000 C CNN
 F 1 "BLM18AG601SN1D" V 13825 3200 60  0000 C CNN
 F 2 "rdimm-breakout-footprints:0603" H 13950 2975 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 13950 3075 60  0001 L CNN
@@ -2682,10 +2669,10 @@ F 5 "Murata Electronics North America" H 13950 3875 60  0001 L CNN "Manufacturer
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:BLM18AG601SN1D FB?
+L rdimm-breakout:BLM18AG601SN1D FB3
 U 1 1 61D02D92
 P 14075 2875
-F 0 "FB?" H 14050 3025 60  0000 C CNN
+F 0 "FB3" H 14050 3025 60  0000 C CNN
 F 1 "BLM18AG601SN1D" V 14225 2450 60  0000 C CNN
 F 2 "rdimm-breakout-footprints:0603" H 14275 3075 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 14275 3175 60  0001 L CNN
@@ -2701,10 +2688,10 @@ Wire Wire Line
 Wire Wire Line
 	13950 2775 14325 2775
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C14
 U 1 1 61D32CB2
 P 12700 3050
-F 0 "C?" H 12725 3150 60  0000 L CNN
+F 0 "C14" H 12725 3150 60  0000 L CNN
 F 1 "C_100n_0402" H 12700 2900 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 12900 3250 60  0001 L CNN
 F 3 "" H 12700 3050 50  0001 C CNN
@@ -2715,10 +2702,10 @@ F 6 "100n" H 12725 2950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_4u7_0402 C?
+L rdimm-breakout:C_4u7_0402 C17
 U 1 1 61D33D56
 P 13150 3050
-F 0 "C?" H 13175 3150 60  0000 L CNN
+F 0 "C17" H 13175 3150 60  0000 L CNN
 F 1 "C_4u7_0402" H 13150 2900 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 13350 3250 60  0001 L CNN
 F 3 "" H 13150 3050 50  0001 C CNN
@@ -2729,10 +2716,10 @@ F 6 "4u7" H 13175 2950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C15
 U 1 1 61D35CF5
 P 12925 3050
-F 0 "C?" H 12950 3150 60  0000 L CNN
+F 0 "C15" H 12950 3150 60  0000 L CNN
 F 1 "C_100n_0402" H 12925 2900 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 13125 3250 60  0001 L CNN
 F 3 "" H 12925 3050 50  0001 C CNN
@@ -2743,10 +2730,10 @@ F 6 "100n" H 12950 2950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_4u7_0402 C?
+L rdimm-breakout:C_4u7_0402 C18
 U 1 1 61D360DA
 P 13375 3050
-F 0 "C?" H 13400 3150 60  0000 L CNN
+F 0 "C18" H 13400 3150 60  0000 L CNN
 F 1 "C_4u7_0402" H 13375 2900 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 13575 3250 60  0001 L CNN
 F 3 "" H 13375 3050 50  0001 C CNN
@@ -2757,10 +2744,10 @@ F 6 "4u7" H 13400 2950 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0113
 U 1 1 61DE8D49
 P 12700 3200
-F 0 "#PWR?" H 12700 2950 50  0001 C CNN
+F 0 "#PWR0113" H 12700 2950 50  0001 C CNN
 F 1 "GND" H 12705 3027 50  0000 C CNN
 F 2 "" H 12700 3200 50  0001 C CNN
 F 3 "" H 12700 3200 50  0001 C CNN
@@ -2768,10 +2755,10 @@ F 3 "" H 12700 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0114
 U 1 1 61DE98A2
 P 12925 3200
-F 0 "#PWR?" H 12925 2950 50  0001 C CNN
+F 0 "#PWR0114" H 12925 2950 50  0001 C CNN
 F 1 "GND" H 12930 3027 50  0000 C CNN
 F 2 "" H 12925 3200 50  0001 C CNN
 F 3 "" H 12925 3200 50  0001 C CNN
@@ -2779,10 +2766,10 @@ F 3 "" H 12925 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0115
 U 1 1 61DE9B97
 P 13150 3200
-F 0 "#PWR?" H 13150 2950 50  0001 C CNN
+F 0 "#PWR0115" H 13150 2950 50  0001 C CNN
 F 1 "GND" H 13155 3027 50  0000 C CNN
 F 2 "" H 13150 3200 50  0001 C CNN
 F 3 "" H 13150 3200 50  0001 C CNN
@@ -2790,10 +2777,10 @@ F 3 "" H 13150 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0116
 U 1 1 61DE9F96
 P 13375 3200
-F 0 "#PWR?" H 13375 2950 50  0001 C CNN
+F 0 "#PWR0116" H 13375 2950 50  0001 C CNN
 F 1 "GND" H 13380 3027 50  0000 C CNN
 F 2 "" H 13375 3200 50  0001 C CNN
 F 3 "" H 13375 3200 50  0001 C CNN
@@ -2821,10 +2808,10 @@ Wire Wire Line
 Wire Wire Line
 	13375 2875 13375 2900
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0117
 U 1 1 61E43A24
 P 10250 2275
-F 0 "#PWR?" H 10250 2025 50  0001 C CNN
+F 0 "#PWR0117" H 10250 2025 50  0001 C CNN
 F 1 "GND" H 10255 2102 50  0000 C CNN
 F 2 "" H 10250 2275 50  0001 C CNN
 F 3 "" H 10250 2275 50  0001 C CNN
@@ -2832,10 +2819,10 @@ F 3 "" H 10250 2275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0118
 U 1 1 61E449FA
 P 12350 6425
-F 0 "#PWR?" H 12350 6175 50  0001 C CNN
+F 0 "#PWR0118" H 12350 6175 50  0001 C CNN
 F 1 "GND" H 12355 6252 50  0000 C CNN
 F 2 "" H 12350 6425 50  0001 C CNN
 F 3 "" H 12350 6425 50  0001 C CNN
@@ -2863,10 +2850,10 @@ Wire Wire Line
 Wire Wire Line
 	775  2325 1900 2325
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C5
 U 1 1 61EBCC03
 P 4600 2100
-F 0 "C?" H 4625 2200 60  0000 L CNN
+F 0 "C5" H 4625 2200 60  0000 L CNN
 F 1 "C_100n_0402" H 4600 1950 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 4800 2300 60  0001 L CNN
 F 3 "" H 4600 2100 50  0001 C CNN
@@ -2877,10 +2864,10 @@ F 6 "100n" H 4625 2000 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0119
 U 1 1 61EBCC09
 P 4600 2250
-F 0 "#PWR?" H 4600 2000 50  0001 C CNN
+F 0 "#PWR0119" H 4600 2000 50  0001 C CNN
 F 1 "GND" H 4605 2077 50  0000 C CNN
 F 2 "" H 4600 2250 50  0001 C CNN
 F 3 "" H 4600 2250 50  0001 C CNN
@@ -2890,10 +2877,10 @@ $EndComp
 Text GLabel 4600 1950 1    50   Input ~ 0
 VBUS
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C13
 U 1 1 61F08944
 P 12650 7975
-F 0 "C?" H 12675 8075 60  0000 L CNN
+F 0 "C13" H 12675 8075 60  0000 L CNN
 F 1 "C_100n_0402" H 12650 7825 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 12850 8175 60  0001 L CNN
 F 3 "" H 12650 7975 50  0001 C CNN
@@ -2904,10 +2891,10 @@ F 6 "100n" H 12675 7875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0120
 U 1 1 61F0894A
 P 12650 8125
-F 0 "#PWR?" H 12650 7875 50  0001 C CNN
+F 0 "#PWR0120" H 12650 7875 50  0001 C CNN
 F 1 "GND" H 12655 7952 50  0000 C CNN
 F 2 "" H 12650 8125 50  0001 C CNN
 F 3 "" H 12650 8125 50  0001 C CNN
@@ -2915,10 +2902,10 @@ F 3 "" H 12650 8125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C11
 U 1 1 61F196EB
 P 10500 7950
-F 0 "C?" H 10525 8050 60  0000 L CNN
+F 0 "C11" H 10525 8050 60  0000 L CNN
 F 1 "C_100n_0402" H 10500 7800 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 10700 8150 60  0001 L CNN
 F 3 "" H 10500 7950 50  0001 C CNN
@@ -2929,10 +2916,10 @@ F 6 "100n" H 10525 7850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0121
 U 1 1 61F196F1
 P 10500 8100
-F 0 "#PWR?" H 10500 7850 50  0001 C CNN
+F 0 "#PWR0121" H 10500 7850 50  0001 C CNN
 F 1 "GND" H 10505 7927 50  0000 C CNN
 F 2 "" H 10500 8100 50  0001 C CNN
 F 3 "" H 10500 8100 50  0001 C CNN
@@ -2942,10 +2929,10 @@ $EndComp
 Text GLabel 10500 7800 1    50   Input ~ 0
 1V8_FT
 $Comp
-L rdimm-breakout:C_4u7_0402 C?
+L rdimm-breakout:C_4u7_0402 C12
 U 1 1 61F22568
 P 10800 7950
-F 0 "C?" H 10825 8050 60  0000 L CNN
+F 0 "C12" H 10825 8050 60  0000 L CNN
 F 1 "C_4u7_0402" H 10800 7800 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 11000 8150 60  0001 L CNN
 F 3 "" H 10800 7950 50  0001 C CNN
@@ -2956,10 +2943,10 @@ F 6 "4u7" H 10825 7850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0122
 U 1 1 61F2256E
 P 10800 8100
-F 0 "#PWR?" H 10800 7850 50  0001 C CNN
+F 0 "#PWR0122" H 10800 7850 50  0001 C CNN
 F 1 "GND" H 10805 7927 50  0000 C CNN
 F 2 "" H 10800 8100 50  0001 C CNN
 F 3 "" H 10800 8100 50  0001 C CNN
@@ -2969,10 +2956,10 @@ $EndComp
 Text GLabel 10800 7800 1    50   Input ~ 0
 1V8_FT
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C8
 U 1 1 61F4B263
 P 9325 8000
-F 0 "C?" H 9350 8100 60  0000 L CNN
+F 0 "C8" H 9350 8100 60  0000 L CNN
 F 1 "C_100n_0402" H 9325 7850 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 9525 8200 60  0001 L CNN
 F 3 "" H 9325 8000 50  0001 C CNN
@@ -2983,10 +2970,10 @@ F 6 "100n" H 9350 7900 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0123
 U 1 1 61F4B269
 P 9325 8150
-F 0 "#PWR?" H 9325 7900 50  0001 C CNN
+F 0 "#PWR0123" H 9325 7900 50  0001 C CNN
 F 1 "GND" H 9330 7977 50  0000 C CNN
 F 2 "" H 9325 8150 50  0001 C CNN
 F 3 "" H 9325 8150 50  0001 C CNN
@@ -2996,10 +2983,10 @@ $EndComp
 Text GLabel 9325 7850 1    50   Input ~ 0
 1V8_FT
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C9
 U 1 1 61F50A2E
 P 9600 8000
-F 0 "C?" H 9625 8100 60  0000 L CNN
+F 0 "C9" H 9625 8100 60  0000 L CNN
 F 1 "C_100n_0402" H 9600 7850 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 9800 8200 60  0001 L CNN
 F 3 "" H 9600 8000 50  0001 C CNN
@@ -3010,10 +2997,10 @@ F 6 "100n" H 9625 7900 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0124
 U 1 1 61F50A34
 P 9600 8150
-F 0 "#PWR?" H 9600 7900 50  0001 C CNN
+F 0 "#PWR0124" H 9600 7900 50  0001 C CNN
 F 1 "GND" H 9605 7977 50  0000 C CNN
 F 2 "" H 9600 8150 50  0001 C CNN
 F 3 "" H 9600 8150 50  0001 C CNN
@@ -3023,10 +3010,10 @@ $EndComp
 Text GLabel 9600 7850 1    50   Input ~ 0
 1V8_FT
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C10
 U 1 1 61F560C7
 P 9875 8000
-F 0 "C?" H 9900 8100 60  0000 L CNN
+F 0 "C10" H 9900 8100 60  0000 L CNN
 F 1 "C_100n_0402" H 9875 7850 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 10075 8200 60  0001 L CNN
 F 3 "" H 9875 8000 50  0001 C CNN
@@ -3037,10 +3024,10 @@ F 6 "100n" H 9900 7900 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0125
 U 1 1 61F560CD
 P 9875 8150
-F 0 "#PWR?" H 9875 7900 50  0001 C CNN
+F 0 "#PWR0125" H 9875 7900 50  0001 C CNN
 F 1 "GND" H 9880 7977 50  0000 C CNN
 F 2 "" H 9875 8150 50  0001 C CNN
 F 3 "" H 9875 8150 50  0001 C CNN
@@ -3050,10 +3037,10 @@ $EndComp
 Text GLabel 9875 7850 1    50   Input ~ 0
 1V8_FT
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C16
 U 1 1 61F5E5B0
 P 13125 7975
-F 0 "C?" H 13150 8075 60  0000 L CNN
+F 0 "C16" H 13150 8075 60  0000 L CNN
 F 1 "C_100n_0402" H 13125 7825 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 13325 8175 60  0001 L CNN
 F 3 "" H 13125 7975 50  0001 C CNN
@@ -3064,10 +3051,10 @@ F 6 "100n" H 13150 7875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0126
 U 1 1 61F5E5B6
 P 13125 8125
-F 0 "#PWR?" H 13125 7875 50  0001 C CNN
+F 0 "#PWR0126" H 13125 7875 50  0001 C CNN
 F 1 "GND" H 13130 7952 50  0000 C CNN
 F 2 "" H 13125 8125 50  0001 C CNN
 F 3 "" H 13125 8125 50  0001 C CNN
@@ -3075,10 +3062,10 @@ F 3 "" H 13125 8125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C19
 U 1 1 61F63CD1
 P 13400 7975
-F 0 "C?" H 13425 8075 60  0000 L CNN
+F 0 "C19" H 13425 8075 60  0000 L CNN
 F 1 "C_100n_0402" H 13400 7825 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 13600 8175 60  0001 L CNN
 F 3 "" H 13400 7975 50  0001 C CNN
@@ -3089,10 +3076,10 @@ F 6 "100n" H 13425 7875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0127
 U 1 1 61F63CD7
 P 13400 8125
-F 0 "#PWR?" H 13400 7875 50  0001 C CNN
+F 0 "#PWR0127" H 13400 7875 50  0001 C CNN
 F 1 "GND" H 13405 7952 50  0000 C CNN
 F 2 "" H 13400 8125 50  0001 C CNN
 F 3 "" H 13400 8125 50  0001 C CNN
@@ -3100,10 +3087,10 @@ F 3 "" H 13400 8125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C20
 U 1 1 61F6943A
 P 13650 7975
-F 0 "C?" H 13675 8075 60  0000 L CNN
+F 0 "C20" H 13675 8075 60  0000 L CNN
 F 1 "C_100n_0402" H 13650 7825 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 13850 8175 60  0001 L CNN
 F 3 "" H 13650 7975 50  0001 C CNN
@@ -3114,10 +3101,10 @@ F 6 "100n" H 13675 7875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0128
 U 1 1 61F69440
 P 13650 8125
-F 0 "#PWR?" H 13650 7875 50  0001 C CNN
+F 0 "#PWR0128" H 13650 7875 50  0001 C CNN
 F 1 "GND" H 13655 7952 50  0000 C CNN
 F 2 "" H 13650 8125 50  0001 C CNN
 F 3 "" H 13650 8125 50  0001 C CNN
@@ -3125,10 +3112,10 @@ F 3 "" H 13650 8125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_100n_0402 C?
+L rdimm-breakout:C_100n_0402 C21
 U 1 1 61F6EA47
 P 13900 7975
-F 0 "C?" H 13925 8075 60  0000 L CNN
+F 0 "C21" H 13925 8075 60  0000 L CNN
 F 1 "C_100n_0402" H 13900 7825 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 14100 8175 60  0001 L CNN
 F 3 "" H 13900 7975 50  0001 C CNN
@@ -3139,10 +3126,10 @@ F 6 "100n" H 13925 7875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0129
 U 1 1 61F6EA4D
 P 13900 8125
-F 0 "#PWR?" H 13900 7875 50  0001 C CNN
+F 0 "#PWR0129" H 13900 7875 50  0001 C CNN
 F 1 "GND" H 13905 7952 50  0000 C CNN
 F 2 "" H 13900 8125 50  0001 C CNN
 F 3 "" H 13900 8125 50  0001 C CNN
@@ -3215,10 +3202,10 @@ Connection ~ 2475 8150
 Text Notes 2725 7300 0    118  ~ 24
 2V5 LDO
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0130
 U 1 1 62026A3D
 P 3600 8575
-F 0 "#PWR?" H 3600 8325 50  0001 C CNN
+F 0 "#PWR0130" H 3600 8325 50  0001 C CNN
 F 1 "GND" H 3605 8402 50  0000 C CNN
 F 2 "" H 3600 8575 50  0001 C CNN
 F 3 "" H 3600 8575 50  0001 C CNN
@@ -3226,10 +3213,10 @@ F 3 "" H 3600 8575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0131
 U 1 1 62026A43
 P 3775 8575
-F 0 "#PWR?" H 3775 8325 50  0001 C CNN
+F 0 "#PWR0131" H 3775 8325 50  0001 C CNN
 F 1 "GND" H 3780 8402 50  0000 C CNN
 F 2 "" H 3775 8575 50  0001 C CNN
 F 3 "" H 3775 8575 50  0001 C CNN
@@ -3237,10 +3224,10 @@ F 3 "" H 3775 8575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0132
 U 1 1 62026A49
 P 2475 8575
-F 0 "#PWR?" H 2475 8325 50  0001 C CNN
+F 0 "#PWR0132" H 2475 8325 50  0001 C CNN
 F 1 "GND" H 2480 8402 50  0000 C CNN
 F 2 "" H 2475 8575 50  0001 C CNN
 F 3 "" H 2475 8575 50  0001 C CNN
@@ -3248,10 +3235,10 @@ F 3 "" H 2475 8575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_1u_0402 C?
+L rdimm-breakout:C_1u_0402 C3
 U 1 1 62026A52
 P 3775 8425
-F 0 "C?" H 3890 8470 60  0000 L CNN
+F 0 "C3" H 3890 8470 60  0000 L CNN
 F 1 "C_1u_0402" H 3775 8275 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 3975 8625 60  0001 L CNN
 F 3 "" H 3775 8425 50  0001 C CNN
@@ -3262,10 +3249,10 @@ F 6 "1u" H 3890 8372 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:C_1u_0402 C?
+L rdimm-breakout:C_1u_0402 C2
 U 1 1 62026A5B
 P 2475 8425
-F 0 "C?" H 2590 8470 60  0000 L CNN
+F 0 "C2" H 2590 8470 60  0000 L CNN
 F 1 "C_1u_0402" H 2475 8275 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-cap" H 2675 8625 60  0001 L CNN
 F 3 "" H 2475 8425 50  0001 C CNN
@@ -3276,10 +3263,10 @@ F 6 "1u" H 2590 8372 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rdimm-breakout:TPS7A0518PDBVT IC?
+L rdimm-breakout:TPS7A0518PDBVT IC1
 U 1 1 6206D045
 P 3075 8200
-F 0 "IC?" H 3075 8499 50  0000 C CNN
+F 0 "IC1" H 3075 8499 50  0000 C CNN
 F 1 "MIC5317-2.5YM5-TR" H 3075 8416 39  0000 C CNN
 F 2 "rdimm-breakout-footprints:SOT-23-5" H 3075 7950 50  0001 C CNN
 F 3 "" H 3075 8200 50  0001 C CNN
@@ -3298,10 +3285,10 @@ SCL
 Wire Wire Line
 	12250 4475 12675 4475
 $Comp
-L rdimm-breakout:R_0R_0603 R?
+L rdimm-breakout:R_0R_0603 R5
 U 1 1 620E9567
 P 12475 4375
-F 0 "R?" H 12325 4425 60  0000 C CNN
+F 0 "R5" H 12325 4425 60  0000 C CNN
 F 1 "R_0R_0603" H 12475 4225 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0603-res" H 12675 4575 60  0001 L CNN
 F 3 "" H 12475 4375 50  0001 C CNN
@@ -3319,10 +3306,10 @@ Wire Wire Line
 	12675 4375 12675 4475
 Connection ~ 12675 4475
 $Comp
-L rdimm-breakout:R_0R_0603 R?
+L rdimm-breakout:R_0R_0603 R6
 U 1 1 620F6675
 P 12475 4575
-F 0 "R?" H 12325 4625 60  0000 C CNN
+F 0 "R6" H 12325 4625 60  0000 C CNN
 F 1 "R_0R_0603" H 12475 4425 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0603-res" H 12675 4775 60  0001 L CNN
 F 3 "" H 12475 4575 50  0001 C CNN
@@ -3339,10 +3326,10 @@ Wire Wire Line
 Text GLabel 13125 4575 2    50   Input ~ 0
 WP
 $Comp
-L rdimm-breakout:R_220R_0402 R?
+L rdimm-breakout:R_220R_0402 R7
 U 1 1 6210A19F
 P 12825 4775
-F 0 "R?" V 12780 4845 60  0000 L CNN
+F 0 "R7" V 12780 4845 60  0000 L CNN
 F 1 "R_220R_0402" H 12825 4625 60  0001 C CNN
 F 2 "rdimm-breakout-footprints:0402-res" H 13025 4975 60  0001 L CNN
 F 3 "" H 12825 4775 50  0001 C CNN
@@ -3353,10 +3340,10 @@ F 6 "220R" V 12878 4845 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR?
+L rdimm-breakout:GND-rdimm-breakout #PWR0133
 U 1 1 6210A564
 P 12825 4925
-F 0 "#PWR?" H 12825 4675 50  0001 C CNN
+F 0 "#PWR0133" H 12825 4675 50  0001 C CNN
 F 1 "GND" H 12830 4752 50  0000 C CNN
 F 2 "" H 12825 4925 50  0001 C CNN
 F 3 "" H 12825 4925 50  0001 C CNN
@@ -3383,10 +3370,10 @@ VCC3V3
 Text GLabel 5150 10550 1    50   Input ~ 0
 1V8_FT
 $Comp
-L rdimm-breakout:TP_SMD1MM-rdimm-breakout 1V8_FT
+L rdimm-breakout:TP_SMD1MM-rdimm-breakout 1V8_FT1
 U 1 1 621D145D
 P 5150 10650
-F 0 "1V8_FT" V 5050 10750 50  0000 C CNN
+F 0 "1V8_FT1" V 5050 10750 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5150 10550 50  0001 C CNN
 F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 5350 10850 60  0001 L CNN
 F 3 "" H 5350 10950 60  0001 L CNN
@@ -3426,10 +3413,10 @@ $EndComp
 Wire Wire Line
 	2000 5825 2700 5825
 $Comp
-L rdimm-breakout:TPS7A0518PDBVT IC?
+L rdimm-breakout:TPS7A0518PDBVT IC2
 U 1 1 62044E66
 P 3100 5875
-F 0 "IC?" H 3100 6174 50  0000 C CNN
+F 0 "IC2" H 3100 6174 50  0000 C CNN
 F 1 "MIC5225-3.3YM5-TR" H 3100 6091 39  0000 C CNN
 F 2 "rdimm-breakout-footprints:SOT-23-5" H 3100 5625 50  0001 C CNN
 F 3 "" H 3100 5875 50  0001 C CNN
@@ -3454,4 +3441,17 @@ Wire Wire Line
 	12675 4475 13125 4475
 Wire Wire Line
 	12250 4275 13125 4275
+$Comp
+L rdimm-breakout:FT2232HL-REEL U1
+U 1 1 624D5D0F
+P 11250 3975
+F 0 "U1" H 11250 6464 60  0000 C CNN
+F 1 "FT2232HL-REEL" H 11250 6358 60  0000 C CNN
+F 2 "rdimm-breakout-footprints:LQFP-64_10x10mm" V 11300 4200 60  0001 L CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 7525 4000 60  0001 L CNN
+F 4 "FTDI, Future Technology Devices International Ltd" H 7525 4800 60  0001 L CNN "Manufacturer"
+F 5 "FT2232HL-REEL" H 11300 4500 60  0001 L CNN "MPN"
+	1    11250 3975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

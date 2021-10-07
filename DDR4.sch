@@ -1247,8 +1247,6 @@ Text GLabel 11950 8025 2    50   Input ~ 0
 DQ63
 Text GLabel 11950 8225 2    50   Input ~ 0
 DQ59
-Text GLabel 11950 8425 2    50   Input ~ 0
-VDDSPD
 Wire Wire Line
 	11225 8425 11950 8425
 Text GLabel 3225 2450 0    50   Input ~ 0
@@ -1360,30 +1358,6 @@ F 3 "" H 10225 9000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10225 8225 10225 9000
-Text GLabel 13975 9375 2    50   Input ~ 0
-VDDSPD
-Wire Wire Line
-	13400 9375 13100 9375
-Text GLabel 13100 9375 0    50   Input ~ 0
-VPP
-$Comp
-L rdimm-breakout:R_0R_0603-rdimm-breakout R?
-U 1 1 632B1D0D
-P 13550 9375
-AR Path="/60225B0C/632B1D0D" Ref="R?"  Part="1" 
-AR Path="/61827943/632B1D0D" Ref="R158"  Part="1" 
-F 0 "R158" H 13500 9475 60  0000 C CNN
-F 1 "R_0R_0603" H 13550 9225 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0603-res" H 13750 9575 60  0001 L CNN
-F 3 "" H 13550 9375 50  0001 C CNN
-F 4 "BOURNS" H 13750 9775 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 13750 9675 60  0001 L CNN "MPN"
-F 6 "0R" H 13700 9325 50  0000 C CNN "Val"
-	1    13550 9375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13700 9375 13975 9375
 Text Notes 12325 8450 0    50   ~ 0
 2V5 
 Text Label 3550 2050 0    50   ~ 0
@@ -1448,4 +1422,6 @@ Text GLabel 9600 8525 0    50   Input ~ 0
 SCL_2V5
 Text GLabel 11950 8525 2    50   Input ~ 0
 SDA_2V5
+Text GLabel 11950 8425 2    50   Input ~ 0
+VCC2V5
 $EndSCHEMATC
