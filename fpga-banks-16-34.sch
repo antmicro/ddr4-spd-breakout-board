@@ -506,12 +506,12 @@ VCC3V3
 Text GLabel 9725 5300 1    50   Input ~ 0
 VCC2V5
 $Comp
-L rdimm-breakout:0022232041 J4
+L antmicroRectangularConnectorsHeadersMalePins:0022232041 J4
 U 1 1 624BF565
 P 11675 5000
 F 0 "J4" V 11774 4872 50  0000 R CNN
 F 1 "0022232041" V 11865 4872 50  0000 R CNN
-F 2 "rdimm-breakout-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 11875 5200 60  0001 L CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 11875 5200 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 11875 5300 60  0001 L CNN
 F 4 "0022232041" H 11875 5500 60  0001 L CNN "MPN"
 F 5 "Molex" H 11875 6100 60  0001 L CNN "Manufacturer"

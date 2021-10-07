@@ -1368,50 +1368,6 @@ Text Label 5225 2050 2    50   ~ 0
 12V
 Wire Wire Line
 	5250 2050 4850 2050
-$Comp
-L rdimm-breakout:TP_SMD1MM-rdimm-breakout TP10
-U 1 1 618505E7
-P 2250 1850
-F 0 "TP10" V 2155 1897 50  0000 C CNN
-F 1 "TP_SMD1MM" H 2250 1750 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:Testpoint_smd_1mm" H 2450 2050 60  0001 L CNN
-F 3 "" H 2450 2150 60  0001 L CNN
-	1    2250 1850
-	0    -1   -1   0   
-$EndComp
-Text Label 2000 1850 0    50   ~ 0
-12V
-Wire Notes Line
-	1275 1550 1275 2050
-Wire Notes Line
-	1275 2050 2350 2050
-Wire Notes Line
-	2350 2050 2350 1550
-Wire Notes Line
-	2350 1550 1275 1550
-Text Notes 1350 1650 0    50   ~ 0
-NVRDIMM Backup voltage
-$Comp
-L rdimm-breakout:R_0R_0603-rdimm-breakout R157
-U 1 1 61903C55
-P 1800 1850
-F 0 "R157" H 1800 1950 60  0000 C CNN
-F 1 "R_0R_0603" H 1800 1700 60  0001 C CNN
-F 2 "rdimm-breakout-footprints:0603-res" H 2000 2050 60  0001 L CNN
-F 3 "" H 1800 1850 50  0001 C CNN
-F 4 "BOURNS" H 2000 2250 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 2000 2150 60  0001 L CNN "MPN"
-F 6 "0R" H 1950 1775 50  0000 C CNN "Val"
-F 7 "DNP" H 1800 1850 50  0000 C CNN "DNP"
-	1    1800 1850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2150 1850 1950 1850
-Text GLabel 1550 1850 0    50   Input ~ 0
-VIN
-Wire Wire Line
-	1650 1850 1550 1850
 Text GLabel 3500 2050 0    50   Input ~ 0
 NC
 Text GLabel 5250 2050 2    50   Input ~ 0

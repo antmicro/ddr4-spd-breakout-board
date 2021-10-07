@@ -3442,12 +3442,12 @@ Wire Wire Line
 Wire Wire Line
 	12250 4275 13125 4275
 $Comp
-L rdimm-breakout:FT2232HL-REEL U1
+L antmicroInterfaceControllers:FT2232HL-REEL U1
 U 1 1 624D5D0F
 P 11250 3975
 F 0 "U1" H 11250 6464 60  0000 C CNN
 F 1 "FT2232HL-REEL" H 11250 6358 60  0000 C CNN
-F 2 "rdimm-breakout-footprints:LQFP-64_10x10mm" V 11300 4200 60  0001 L CNN
+F 2 "antmicro-footprints:LQFP-64_10x10mm" V 11300 4200 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 7525 4000 60  0001 L CNN
 F 4 "FTDI, Future Technology Devices International Ltd" H 7525 4800 60  0001 L CNN "Manufacturer"
 F 5 "FT2232HL-REEL" H 11300 4500 60  0001 L CNN "MPN"
