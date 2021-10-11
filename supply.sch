@@ -2450,8 +2450,6 @@ Wire Wire Line
 Connection ~ 8350 1875
 Wire Wire Line
 	8350 1875 8350 1675
-Text GLabel 8350 1375 1    50   Input ~ 0
-5V_USB
 Wire Wire Line
 	8350 1875 10250 1875
 $Comp
@@ -3454,4 +3452,6 @@ F 5 "FT2232HL-REEL" H 11300 4500 60  0001 L CNN "MPN"
 	1    11250 3975
 	1    0    0    -1  
 $EndComp
+Text GLabel 8350 1375 1    50   Input ~ 0
+VCC3V3
 $EndSCHEMATC
