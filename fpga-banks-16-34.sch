@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 4
 Title "RDIMM-breakout"
-Date "2021-09"
-Rev "1.0.0"
+Date "2021-10"
+Rev "1.0.1"
 Comp "Antmicro Ltd."
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd"
@@ -506,12 +506,12 @@ VCC3V3
 Text GLabel 9725 5300 1    50   Input ~ 0
 VCC2V5
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:0022232041 J4
+L rdimm-breakout:0022232041 J4
 U 1 1 624BF565
 P 11675 5000
 F 0 "J4" V 11774 4872 50  0000 R CNN
 F 1 "0022232041" V 11865 4872 50  0000 R CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 11875 5200 60  0001 L CNN
+F 2 "rdimm-breakout-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 11875 5200 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 11875 5300 60  0001 L CNN
 F 4 "0022232041" H 11875 5500 60  0001 L CNN "MPN"
 F 5 "Molex" H 11875 6100 60  0001 L CNN "Manufacturer"

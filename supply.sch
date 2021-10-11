@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 4
 Title "RDIMM-breakout"
-Date "2021-09"
-Rev "1.0.0"
+Date "2021-10"
+Rev "1.0.1"
 Comp "Antmicro Ltd."
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd"
@@ -3427,12 +3427,12 @@ Wire Wire Line
 Wire Wire Line
 	12250 4275 13125 4275
 $Comp
-L antmicroInterfaceControllers:FT2232HL-REEL U1
+L rdimm-breakout:FT2232HL-REEL U1
 U 1 1 624D5D0F
 P 11250 3975
 F 0 "U1" H 11250 6464 60  0000 C CNN
 F 1 "FT2232HL-REEL" H 11250 6358 60  0000 C CNN
-F 2 "antmicro-footprints:LQFP-64_10x10mm" V 11300 4200 60  0001 L CNN
+F 2 "rdimm-breakout-footprints:LQFP-64_10x10mm" V 11300 4200 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 7525 4000 60  0001 L CNN
 F 4 "FTDI, Future Technology Devices International Ltd" H 7525 4800 60  0001 L CNN "Manufacturer"
 F 5 "FT2232HL-REEL" H 11300 4500 60  0001 L CNN "MPN"
@@ -3442,12 +3442,12 @@ $EndComp
 Text GLabel 8350 1375 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:NCP163ASN330T1G U?
+L rdimm-breakout:NCP163ASN330T1G U?
 U 1 1 617E4A9E
 P 3100 5875
 F 0 "U?" H 3100 6174 50  0000 C CNN
 F 1 "NCP163ASN330T1G" H 3100 6091 39  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-5" H 3100 5625 50  0001 C CNN
+F 2 "rdimm-breakout-footprints:SOT-23-5" H 3100 5625 50  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/308/1/NCP163_D-2317108.pdf" H 3200 6225 50  0001 C CNN
 F 4 "NCP163ASN330T1G" H 2950 6175 50  0001 C CNN "MPN"
 F 5 "Onsemi" H 3050 6275 50  0001 C CNN "Manufacturer"

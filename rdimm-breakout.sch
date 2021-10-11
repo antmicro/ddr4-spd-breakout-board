@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 4
 Title "RDIMM-breakout"
-Date "2021-09"
-Rev "1.0.0"
+Date "2021-10"
+Rev "1.0.1"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd"
