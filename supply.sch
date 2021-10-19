@@ -3442,10 +3442,10 @@ $EndComp
 Text GLabel 8350 1375 1    50   Input ~ 0
 VCC3V3
 $Comp
-L rdimm-breakout:NCP163ASN330T1G U?
+L rdimm-breakout:NCP163ASN330T1G U2
 U 1 1 617E4A9E
 P 3100 5875
-F 0 "U?" H 3100 6174 50  0000 C CNN
+F 0 "U2" H 3100 6174 50  0000 C CNN
 F 1 "NCP163ASN330T1G" H 3100 6091 39  0000 C CNN
 F 2 "rdimm-breakout-footprints:SOT-23-5" H 3100 5625 50  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/308/1/NCP163_D-2317108.pdf" H 3200 6225 50  0001 C CNN
