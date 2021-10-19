@@ -22,7 +22,9 @@ AR Path="/61827943/61972CE0" Ref="U14"  Part="2"
 F 0 "U14" H 10775 17740 50  0000 C CNN
 F 1 "2199155-1" H 10775 17649 50  0000 C CNN
 F 2 "rdimm-breakout-footprints:2199155-1" H 9500 16575 50  0001 C CNN
-F 3 "" H 9500 16575 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199155&DocType=Customer+Drawing&DocLang=English" H 9500 16575 50  0001 C CNN
+F 4 "2199155-1" H 10625 9675 50  0000 C CNN "MPN"
+F 5 "TE Connectivity" H 10700 9775 50  0000 C CNN "Manufacturer"
 	2    10175 9875
 	1    0    0    -1  
 $EndComp
@@ -795,9 +797,11 @@ P 3800 9700
 AR Path="/60D4969D/61972CDA" Ref="U?"  Part="1" 
 AR Path="/61827943/61972CDA" Ref="U14"  Part="1" 
 F 0 "U14" H 4400 17565 50  0000 C CNN
-F 1 "2199155-1" H 4400 17474 50  0000 C CNN
+F 1 "2199155-1" H 4400 17474 50  0001 C CNN
 F 2 "rdimm-breakout-footprints:2199155-1" H 3125 16400 50  0001 C CNN
-F 3 "" H 3125 16400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199155&DocType=Customer+Drawing&DocLang=English" H 3125 16400 50  0001 C CNN
+F 4 "2199155-1" H 4325 9550 50  0000 C CNN "MPN"
+F 5 "TE Connectivity" H 4400 9625 50  0000 C CNN "Manufacturer"
 	1    3800 9700
 	1    0    0    -1  
 $EndComp

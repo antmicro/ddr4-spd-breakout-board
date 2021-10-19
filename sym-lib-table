@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name imu-adapter)(type Legacy)(uri /home/jkrzyska/REPOSITORIES/zanni-imu-adapter-hw/imu-adapter.lib)(options "")(descr ""))
-  (lib (name EEPROM-writer)(type Legacy)(uri /home/jkrzyska/REPOSITORIES/antmicro-eeprom-writer-hw/EEPROM-writer.lib)(options "")(descr ""))
   (lib (name rdimm-breakout)(type Legacy)(uri ${KIPRJMOD}/lib/rdimm-breakout.lib)(options "")(descr ""))
 )

@@ -27,9 +27,11 @@ ENDDEF
 #
 DEF rdimm-breakout_2199155-1-rdimm-breakout U 0 40 N Y 2 F N
 F0 "U" 300 7900 50 H V C CNN
-F1 "rdimm-breakout_2199155-1-rdimm-breakout" 475 7825 50 H V C CNN
+F1 "rdimm-breakout_2199155-1-rdimm-breakout" 475 7825 50 H I C CNN
 F2 "rdimm-breakout-footprints:2199155-1" -675 6700 50 H I C CNN
 F3 "" -675 6700 50 H I C CNN
+F4 "TE Connectivity" 0 0 50 H V C CNN "Manufacturer"
+F5 "2199155-1" 0 0 50 H V C CNN "MPN"
 DRAW
 S 250 7725 950 -25 0 1 0 f
 X 1 1 150 7650 100 R 50 50 1 1 I
