@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 4
 Title "RDIMM-breakout"
 Date "2021-10"
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "Antmicro Ltd."
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd"
@@ -3418,8 +3418,6 @@ Text Label 2450 10525 0    50   ~ 0
 3V3_EN
 Wire Wire Line
 	3600 10425 3600 10075
-Text GLabel 3600 10075 1    50   Input ~ 0
-VCC3V3
 Wire Wire Line
 	3475 10425 3600 10425
 Wire Wire Line
@@ -3454,4 +3452,6 @@ F 5 "Onsemi" H 3050 6275 50  0001 C CNN "Manufacturer"
 	1    3100 5875
 	1    0    0    -1  
 $EndComp
+Text GLabel 3600 10075 1    50   Input ~ 0
+VBUS
 $EndSCHEMATC

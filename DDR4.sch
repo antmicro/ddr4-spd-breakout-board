@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 4
 Title "RDIMM-breakout"
 Date "2021-10"
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "Antmicro Ltd."
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd"
