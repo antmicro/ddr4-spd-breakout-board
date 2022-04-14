@@ -4,7 +4,7 @@ DDR4 SPD Breakout Board
 
 Copyright (c) 2022 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/ddr4-spd-breakout.jpg
+.. figure:: img/ddr4-spd-breakout.png
 
 Overview
 --------
