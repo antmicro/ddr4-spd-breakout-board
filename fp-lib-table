@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name rdimm-breakout-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/rdimm-breakout-footprints)(options "")(descr ""))
+  (lib (name ddr4-spd-breakout-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/ddr4-spd-breakout-footprints)(options "")(descr ""))
 )

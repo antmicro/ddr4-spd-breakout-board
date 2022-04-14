@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L rdimm-breakout:2199155-1-rdimm-breakout U?
+L ddr4-spd-breakout:2199155-1-ddr4-spd-breakout U?
 U 2 1 61972CE0
 P 10175 9875
 AR Path="/60D4969D/61972CE0" Ref="U?"  Part="2" 
 AR Path="/61827943/61972CE0" Ref="U14"  Part="2" 
 F 0 "U14" H 10775 17740 50  0000 C CNN
 F 1 "2199155-1" H 10775 17649 50  0000 C CNN
-F 2 "rdimm-breakout-footprints:2199155-1" H 9500 16575 50  0001 C CNN
+F 2 "ddr4-spd-breakout-footprints:2199155-1" H 9500 16575 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199155&DocType=Customer+Drawing&DocLang=English" H 9500 16575 50  0001 C CNN
 F 4 "2199155-1" H 10625 9675 50  0000 C CNN "MPN"
 F 5 "TE Connectivity" H 10700 9775 50  0000 C CNN "Manufacturer"
@@ -791,14 +791,14 @@ Wire Wire Line
 Wire Wire Line
 	3950 2950 3225 2950
 $Comp
-L rdimm-breakout:2199155-1-rdimm-breakout U?
+L ddr4-spd-breakout:2199155-1-ddr4-spd-breakout U?
 U 1 1 61972CDA
 P 3800 9700
 AR Path="/60D4969D/61972CDA" Ref="U?"  Part="1" 
 AR Path="/61827943/61972CDA" Ref="U14"  Part="1" 
 F 0 "U14" H 4400 17565 50  0000 C CNN
 F 1 "2199155-1" H 4400 17474 50  0001 C CNN
-F 2 "rdimm-breakout-footprints:2199155-1" H 3125 16400 50  0001 C CNN
+F 2 "ddr4-spd-breakout-footprints:2199155-1" H 3125 16400 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199155&DocType=Customer+Drawing&DocLang=English" H 3125 16400 50  0001 C CNN
 F 4 "2199155-1" H 4325 9550 50  0000 C CNN "MPN"
 F 5 "TE Connectivity" H 4400 9625 50  0000 C CNN "Manufacturer"
@@ -1306,7 +1306,7 @@ VDDQ
 Text GLabel 3700 7850 0    50   Input ~ 0
 VDDQ
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR0148
+L ddr4-spd-breakout:GND-ddr4-spd-breakout #PWR0148
 U 1 1 628D8B81
 P 4950 9750
 F 0 "#PWR0148" H 4950 9500 50  0001 C CNN
@@ -1323,7 +1323,7 @@ Wire Wire Line
 	4950 7950 4950 7750
 Connection ~ 4950 7950
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR0150
+L ddr4-spd-breakout:GND-ddr4-spd-breakout #PWR0150
 U 1 1 62DBB5DD
 P 3650 7650
 F 0 "#PWR0150" H 3650 7400 50  0001 C CNN
@@ -1337,7 +1337,7 @@ Wire Wire Line
 	3850 7650 3650 7650
 Connection ~ 3850 7650
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR0204
+L ddr4-spd-breakout:GND-ddr4-spd-breakout #PWR0204
 U 1 1 62FAA504
 P 11325 9000
 F 0 "#PWR0204" H 11325 8750 50  0001 C CNN
@@ -1350,7 +1350,7 @@ $EndComp
 Wire Wire Line
 	11325 8325 11325 9000
 $Comp
-L rdimm-breakout:GND-rdimm-breakout #PWR0230
+L ddr4-spd-breakout:GND-ddr4-spd-breakout #PWR0230
 U 1 1 6309AE85
 P 10225 9000
 F 0 "#PWR0230" H 10225 8750 50  0001 C CNN

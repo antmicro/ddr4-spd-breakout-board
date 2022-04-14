@@ -1,12 +1,12 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 0022232041
+# ddr4-spd-breakout_0022232041
 #
-DEF 0022232041 J 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_0022232041 J 0 40 Y Y 1 F N
 F0 "J" -100 50 50 H V R CNN
-F1 "0022232041" 150 -150 50 H V C CNN
-F2 "rdimm-breakout-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_0022232041" 150 -150 50 H V C CNN
+F2 "ddr4-spd-breakout-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "0022232041" 200 500 60 H I L CNN "MPN"
 F5 "Molex" 200 1100 60 H I L CNN "Manufacturer"
@@ -23,12 +23,12 @@ X ~ 4 300 100 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 2199155-1-rdimm-breakout
+# ddr4-spd-breakout_2199155-1-ddr4-spd-breakout
 #
-DEF 2199155-1-rdimm-breakout U 0 40 N Y 2 F N
+DEF ddr4-spd-breakout_2199155-1-ddr4-spd-breakout U 0 40 N Y 2 F N
 F0 "U" 300 7900 50 H V C CNN
-F1 "2199155-1-rdimm-breakout" 475 7825 50 H I C CNN
-F2 "rdimm-breakout-footprints:2199155-1" -675 6700 50 H I C CNN
+F1 "ddr4-spd-breakout_2199155-1-ddr4-spd-breakout" 475 7825 50 H I C CNN
+F2 "ddr4-spd-breakout-footprints:2199155-1" -675 6700 50 H I C CNN
 F3 "" -675 6700 50 H I C CNN
 F4 "TE Connectivity" 0 0 50 H V C CNN "Manufacturer"
 F5 "2199155-1" 0 0 50 H V C CNN "MPN"
@@ -325,12 +325,12 @@ X 99 99 150 5550 100 R 50 50 2 1 I
 ENDDRAW
 ENDDEF
 #
-# BLM18AG601SN1D
+# ddr4-spd-breakout_BLM18AG601SN1D
 #
-DEF BLM18AG601SN1D FB 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_BLM18AG601SN1D FB 0 40 Y Y 1 F N
 F0 "FB" -100 150 60 H V C CNN
-F1 "BLM18AG601SN1D" 0 -150 60 H V L CNN
-F2 "rdimm-breakout-footprints:0603" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_BLM18AG601SN1D" 0 -150 60 H V L CNN
+F2 "ddr4-spd-breakout-footprints:0603" 200 200 60 H I L CNN
 F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
 F4 "BLM18AG601SN1D" 200 500 60 H I L CNN "MPN"
 F5 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
@@ -343,12 +343,12 @@ X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_100n_0402
+# ddr4-spd-breakout_C_100n_0402
 #
-DEF C_100n_0402 C 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_C_100n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "C_100n_0402" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_C_100n_0402" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
@@ -361,12 +361,12 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_1u_0402
+# ddr4-spd-breakout_C_1u_0402
 #
-DEF C_1u_0402 C 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_C_1u_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "C_1u_0402" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_C_1u_0402" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
@@ -379,12 +379,12 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_27p_0402
+# ddr4-spd-breakout_C_27p_0402
 #
-DEF C_27p_0402 C 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_C_27p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "C_27p_0402" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_C_27p_0402" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402N270J500CT" 200 300 60 H I L CNN "MPN"
@@ -397,12 +397,12 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_4u7_0402
+# ddr4-spd-breakout_C_4u7_0402
 #
-DEF C_4u7_0402 C 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_C_4u7_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "C_4u7_0402" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-cap" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_C_4u7_0402" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM155R61A475MEAAD" 200 300 60 H I L CNN "MPN"
@@ -415,12 +415,12 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# FT2232HL-REEL
+# ddr4-spd-breakout_FT2232HL-REEL
 #
-DEF FT2232HL-REEL U 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_FT2232HL-REEL U 0 40 Y Y 1 F N
 F0 "U" -750 2375 60 H V C CNN
-F1 "FT2232HL-REEL" -150 -375 60 V V L CNN
-F2 "rdimm-breakout-footprints:LQFP-64_10x10mm" 50 225 60 V I L CNN
+F1 "ddr4-spd-breakout_FT2232HL-REEL" -150 -375 60 V V L CNN
+F2 "ddr4-spd-breakout-footprints:LQFP-64_10x10mm" 50 225 60 V I L CNN
 F3 "" -3725 25 60 H I L CNN
 F4 "FTDI, Future Technology Devices International Ltd" -3725 825 60 H I L CNN "Manufacturer"
 F5 "FT2232HL-REEL" 50 525 60 H I L CNN "MPN"
@@ -493,12 +493,12 @@ X VPLL 9 1000 1200 200 L 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# GND-rdimm-breakout
+# ddr4-spd-breakout_GND-ddr4-spd-breakout
 #
-DEF GND-rdimm-breakout #PWR 0 0 Y Y 1 F P
+DEF ddr4-spd-breakout_GND-ddr4-spd-breakout #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-rdimm-breakout" 0 -150 50 H V C CNN
-F2 "rdimm-breakout-footprints:" 0 0 50 H I C CNN
+F1 "ddr4-spd-breakout_GND-ddr4-spd-breakout" 0 -150 50 H V C CNN
+F2 "ddr4-spd-breakout-footprints:" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
@@ -506,12 +506,12 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# KP-1608CGCK-rdimm-breakout
+# ddr4-spd-breakout_KP-1608CGCK-ddr4-spd-breakout
 #
-DEF KP-1608CGCK-rdimm-breakout D 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_KP-1608CGCK-ddr4-spd-breakout D 0 0 Y Y 1 F N
 F0 "D" -200 150 60 H V C CNN
-F1 "KP-1608CGCK-rdimm-breakout" 0 -150 60 H V C CNN
-F2 "rdimm-breakout-footprints:LED_0603" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_KP-1608CGCK-ddr4-spd-breakout" 0 -150 60 H V C CNN
+F2 "ddr4-spd-breakout-footprints:LED_0603" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "KP-1608CGCK" 200 500 60 H I L CNN "MPN"
 F5 "KINGBRIGHT" 210 620 60 H I L CNN "Manufacturer"
@@ -527,12 +527,12 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KX-7_12,MHz
+# ddr4-spd-breakout_KX-7_12,MHz
 #
-DEF KX-7_12,MHz Y 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_KX-7_12,MHz Y 0 40 Y Y 1 F N
 F0 "Y" -75 125 31 H V C CNN
-F1 "KX-7_12,MHz" 200 -150 31 H V C CNN
-F2 "rdimm-breakout-footprints:KX-7" 2100 0 50 H I C CNN
+F1 "ddr4-spd-breakout_KX-7_12,MHz" 200 -150 31 H V C CNN
+F2 "ddr4-spd-breakout-footprints:KX-7" 2100 0 50 H I C CNN
 F3 "" 2200 100 50 H I C CNN
 F4 "KX-7_SMD_CRYSTAL_12,0 MHZ" 475 -275 31 H V C CNN "MPN"
 F5 "Geyer Electronic" 300 -225 31 H V C CNN "Manufacturer"
@@ -549,12 +549,12 @@ X ~ 4 0 -200 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# MSS3-V-T_R
+# ddr4-spd-breakout_MSS3-V-T_R
 #
-DEF MSS3-V-T_R S 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_MSS3-V-T_R S 0 0 Y Y 1 F N
 F0 "S" -150 90 50 H V C CNN
-F1 "MSS3-V-T_R" 0 -210 50 H V C CNN
-F2 "rdimm-breakout-footprints:Switch_Slide_MSS3" 200 200 50 H I L CNN
+F1 "ddr4-spd-breakout_MSS3-V-T_R" 0 -210 50 H V C CNN
+F2 "ddr4-spd-breakout-footprints:Switch_Slide_MSS3" 200 200 50 H I L CNN
 F3 "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" 200 300 60 H I L CNN
 F4 "MSS3-V-T/R" 200 500 60 H I L CNN "MPN"
 F5 "Diptronics" 200 620 60 H I L CNN "Manufacturer"
@@ -569,12 +569,12 @@ X ~ 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# NCP163ASN330T1G
+# ddr4-spd-breakout_NCP163ASN330T1G
 #
-DEF NCP163ASN330T1G U 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_NCP163ASN330T1G U 0 40 Y Y 1 F N
 F0 "U" -250 200 50 H V C CNN
-F1 "NCP163ASN330T1G" -74 -190 39 H V C CNN
-F2 "rdimm-breakout-footprints:SOT-23-5" 0 -250 50 H I C CNN
+F1 "ddr4-spd-breakout_NCP163ASN330T1G" -74 -190 39 H V C CNN
+F2 "ddr4-spd-breakout-footprints:SOT-23-5" 0 -250 50 H I C CNN
 F3 "" 100 350 50 H I C CNN
 F4 "NCP163ASN330T1G" -150 300 50 H I C CNN "MPN"
 F5 "Onsemi" -50 400 50 H I C CNN "Manufacturer"
@@ -587,12 +587,12 @@ X VOUT 5 400 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PCA9517ADMR2G-rdimm-breakout
+# ddr4-spd-breakout_PCA9517ADMR2G-ddr4-spd-breakout
 #
-DEF PCA9517ADMR2G-rdimm-breakout U 0 20 Y Y 1 F N
+DEF ddr4-spd-breakout_PCA9517ADMR2G-ddr4-spd-breakout U 0 20 Y Y 1 F N
 F0 "U" -200 450 60 H V C CNN
-F1 "PCA9517ADMR2G-rdimm-breakout" -100 550 60 H V R CNN
-F2 "rdimm-breakout-footprints:TSSOP-8_W3mm" 300 450 60 H I L CNN
+F1 "ddr4-spd-breakout_PCA9517ADMR2G-ddr4-spd-breakout" -100 550 60 H V R CNN
+F2 "ddr4-spd-breakout-footprints:TSSOP-8_W3mm" 300 450 60 H I L CNN
 F3 "" 250 550 60 H I L CNN
 F4 "PCA9517ADMR2G" 250 650 60 H I L CNN "MPN"
 F5 "ON SEMI" 200 1100 60 H I L CNN "Manufacturer"
@@ -609,12 +609,12 @@ X Vref2 8 300 300 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# PESD5V0S2BQA
+# ddr4-spd-breakout_PESD5V0S2BQA
 #
-DEF PESD5V0S2BQA D 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_PESD5V0S2BQA D 0 40 Y Y 1 F N
 F0 "D" -300 -500 60 H V L BNN
-F1 "PESD5V0S2BQA" -300 -600 60 V I L BNN
-F2 "rdimm-breakout-footprints:TPD2E009DRTR" 50 200 60 H I C CNN
+F1 "ddr4-spd-breakout_PESD5V0S2BQA" -300 -600 60 V I L BNN
+F2 "ddr4-spd-breakout-footprints:TPD2E009DRTR" 50 200 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "PESD5V0S2BQA" -300 300 50 H V C CNN "MPN"
 F5 "Nexperia" -300 400 50 H V C CNN "Manufacturer"
@@ -629,12 +629,12 @@ X GND 3 -200 -200 200 R 70 70 0 1 P
 ENDDRAW
 ENDDEF
 #
-# R_0R_0402-rdimm-breakout
+# ddr4-spd-breakout_R_0R_0402-ddr4-spd-breakout
 #
-DEF R_0R_0402-rdimm-breakout R 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_R_0R_0402-ddr4-spd-breakout R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_0R_0402-rdimm-breakout" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-res" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_R_0R_0402-ddr4-spd-breakout" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
@@ -646,12 +646,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_0R_0603
+# ddr4-spd-breakout_R_0R_0603
 #
-DEF R_0R_0603 R 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_R_0R_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_0R_0603" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0603-res" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_R_0R_0603" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0603-J/-000ELF" 200 300 60 H I L CNN "MPN"
@@ -663,12 +663,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_10k_0402
+# ddr4-spd-breakout_R_10k_0402
 #
-DEF R_10k_0402 R 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_10k_0402" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-res" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_R_10k_0402" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
@@ -680,12 +680,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_12k_0402
+# ddr4-spd-breakout_R_12k_0402
 #
-DEF R_12k_0402 R 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_R_12k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_12k_0402" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-res" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_R_12k_0402" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040212K0FKEDHP" 200 300 60 H I L CNN "MPN"
@@ -697,12 +697,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_220R_0402
+# ddr4-spd-breakout_R_220R_0402
 #
-DEF R_220R_0402 R 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_R_220R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_220R_0402" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-res" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_R_220R_0402" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GEJ221X" 200 300 60 H I L CNN "MPN"
@@ -714,12 +714,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_330R_0402-rdimm-breakout
+# ddr4-spd-breakout_R_330R_0402-ddr4-spd-breakout
 #
-DEF R_330R_0402-rdimm-breakout R 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_R_330R_0402-ddr4-spd-breakout R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_330R_0402-rdimm-breakout" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-res" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_R_330R_0402-ddr4-spd-breakout" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCMR04X3300FTL" 200 300 60 H I L CNN "MPN"
@@ -731,12 +731,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_4k7_0402
+# ddr4-spd-breakout_R_4k7_0402
 #
-DEF R_4k7_0402 R 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_R_4k7_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_4k7_0402" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-res" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_R_4k7_0402" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCS04020C4701FE000" 200 300 60 H I L CNN "MPN"
@@ -748,12 +748,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_4k7_0402-rdimm-breakout
+# ddr4-spd-breakout_R_4k7_0402-ddr4-spd-breakout
 #
-DEF R_4k7_0402-rdimm-breakout R 0 0 Y Y 1 F N
+DEF ddr4-spd-breakout_R_4k7_0402-ddr4-spd-breakout R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "R_4k7_0402-rdimm-breakout" 0 -150 60 H I C CNN
-F2 "rdimm-breakout-footprints:0402-res" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_R_4k7_0402-ddr4-spd-breakout" 0 -150 60 H I C CNN
+F2 "ddr4-spd-breakout-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCS04020C4701FE000" 200 300 60 H I L CNN "MPN"
@@ -765,12 +765,12 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TPS7A0518PDBVT
+# ddr4-spd-breakout_TPS7A0518PDBVT
 #
-DEF TPS7A0518PDBVT IC 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_TPS7A0518PDBVT IC 0 40 Y Y 1 F N
 F0 "IC" -250 200 50 H V C CNN
-F1 "TPS7A0518PDBVT" -65 -190 39 H V C CNN
-F2 "rdimm-breakout-footprints:SOT-23-5" 0 -250 50 H I C CNN
+F1 "ddr4-spd-breakout_TPS7A0518PDBVT" -65 -190 39 H V C CNN
+F2 "ddr4-spd-breakout-footprints:SOT-23-5" 0 -250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TPS7A0518PDBVT" -150 300 50 H V C CNN "MPN"
 F5 "Texas Instruments" -50 400 50 H V C CNN "Manufacturer"
@@ -783,12 +783,12 @@ X VOUT 5 400 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TP_SMD1MM-rdimm-breakout
+# ddr4-spd-breakout_TP_SMD1MM-ddr4-spd-breakout
 #
-DEF TP_SMD1MM-rdimm-breakout TP 0 0 N Y 1 F N
+DEF ddr4-spd-breakout_TP_SMD1MM-ddr4-spd-breakout TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
-F1 "TP_SMD1MM-rdimm-breakout" 0 -100 50 H I C CNN
-F2 "rdimm-breakout-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_TP_SMD1MM-ddr4-spd-breakout" 0 -100 50 H I C CNN
+F2 "ddr4-spd-breakout-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
 C 0 0 22 0 1 0 N
@@ -796,12 +796,12 @@ X ~ 1 0 100 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# WE_629105150521
+# ddr4-spd-breakout_WE_629105150521
 #
-DEF WE_629105150521 J 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_WE_629105150521 J 0 40 Y Y 1 F N
 F0 "J" -148 598 60 H V C CNN
-F1 "WE_629105150521" -248 -252 60 V V C CNN
-F2 "rdimm-breakout-footprints:USB_Micro_B_Female_629105150521" 200 200 60 H I L CNN
+F1 "ddr4-spd-breakout_WE_629105150521" -248 -252 60 V V C CNN
+F2 "ddr4-spd-breakout-footprints:USB_Micro_B_Female_629105150521" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "629105150521" 200 500 60 H I L CNN "MPN"
 F5 "Wurth_Elektronik" 200 1100 60 H I L CNN "Manufacturer"
@@ -830,24 +830,24 @@ X ~ 6 -100 -600 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicro_logo-rdimm-breakout
+# ddr4-spd-breakout_antmicro_logo-ddr4-spd-breakout
 #
-DEF antmicro_logo-rdimm-breakout N 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_antmicro_logo-ddr4-spd-breakout N 0 40 Y Y 1 F N
 F0 "N" 0 350 50 H V C CNN
-F1 "antmicro_logo-rdimm-breakout" 0 -200 50 H V C CNN
-F2 "rdimm-breakout-footprints:antmicro-logo" -100 250 50 H I C CNN
+F1 "ddr4-spd-breakout_antmicro_logo-ddr4-spd-breakout" 0 -200 50 H V C CNN
+F2 "ddr4-spd-breakout-footprints:antmicro-logo" -100 250 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
 T 0 50 50 79 0 0 0 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-# oshw_logo-rdimm-breakout
+# ddr4-spd-breakout_oshw_logo-ddr4-spd-breakout
 #
-DEF oshw_logo-rdimm-breakout N 0 40 Y Y 1 F N
+DEF ddr4-spd-breakout_oshw_logo-ddr4-spd-breakout N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
-F1 "oshw_logo-rdimm-breakout" 30 -150 50 H V C CNN
-F2 "rdimm-breakout-footprints:oshw-logo" 20 -240 50 H I C CNN
+F1 "ddr4-spd-breakout_oshw_logo-ddr4-spd-breakout" 30 -150 50 H V C CNN
+F2 "ddr4-spd-breakout-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 30 -40 79 0 1 1 Logo Normal 0 C C
